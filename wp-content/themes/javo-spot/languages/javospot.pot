@@ -1,0 +1,3684 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Javohome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-24 10:05+0100\n"
+"PO-Revision-Date: 2015-09-19 13:37+0900\n"
+"Last-Translator: \n"
+"Language-Team: Javo Theme <javothemes@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+msgid "Ooops!"
+msgstr ""
+
+#: 404.php:16
+msgid "Page  &nbsp;Not &nbsp;Found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Sorry, the page you hove reqested has either been moved, or does not exist."
+msgstr ""
+
+#: 404.php:24
+msgid "Go To Home"
+msgstr ""
+
+#: archive.php:44
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:46
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:46
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:48
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:48
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:52
+msgid "Archive"
+msgstr ""
+
+#: archive.php:54
+msgid "HOME"
+msgstr ""
+
+#: archive.php:147
+msgid "km"
+msgstr ""
+
+#: category.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:24
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:24 content-audio.php:39 content-gallery.php:39
+#: content-image.php:39 content-link.php:39 content-search.php:38
+#: content-video.php:39 content.php:51
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "commentform"
+msgstr ""
+
+#: comments.php:61
+msgid "submit"
+msgstr ""
+
+#: comments.php:62
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:64
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:65
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:66
+msgid "Comment (required)"
+msgstr ""
+
+#: comments.php:66
+msgid "Submit"
+msgstr ""
+
+#: comments.php:69
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:91
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:94
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:97
+msgid "Site"
+msgstr ""
+
+#: content-audio.php:37 content-gallery.php:37 content-image.php:37
+#: content-link.php:37 content-search.php:36 content-video.php:37
+#: content.php:49
+msgid "0 Comment"
+msgstr ""
+
+#: content-audio.php:38 content-gallery.php:38 content-image.php:38
+#: content-link.php:38 content-search.php:37 content-video.php:38
+#: content.php:50
+msgid "1 Comment"
+msgstr ""
+
+#: content-audio.php:51 content-gallery.php:51 content-image.php:51
+#: content-link.php:51 content-video.php:51 content.php:69
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-audio.php:55 content-gallery.php:55 content-image.php:55
+#: content-link.php:55 content-page.php:24 content-video.php:55 content.php:73
+#: image.php:99
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:73 content-gallery.php:73 content-image.php:73
+#: content-link.php:73 content-page.php:19 content-video.php:73 content.php:93
+#: image.php:34 library/wp_init.php:384
+msgid "Edit"
+msgstr ""
+
+#: content-audio.php:81 content-gallery.php:81 content-image.php:81
+#: content-link.php:81 content-video.php:81 content.php:101
+#, php-format
+msgid "About <em>%s</em>"
+msgstr ""
+
+#: content-none.php:12 index.php:41
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:16 index.php:45
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: footer.php:11
+msgid "Go to top"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: image.php:38
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/class-core.php:116
+msgid "Property"
+msgstr ""
+
+#: includes/class-core.php:128 includes/function-property.php:12
+#: includes/templates/template-map-multipleBox.php:9
+#: includes/templates/template-map-template-settings.php:35
+msgid "Map"
+msgstr ""
+
+#: includes/class-shortcode.php:64
+#: includes/templates/admin-theme-settings-property.php:41
+msgid "Not Set"
+msgstr ""
+
+#: includes/class-shortcode.php:80
+msgid "Beds"
+msgstr ""
+
+#: includes/class-shortcode.php:84
+msgid "Baths"
+msgstr ""
+
+#: includes/class-shortcode.php:88
+msgid "Garags"
+msgstr ""
+
+#: includes/class-shortcode.php:102
+msgid "By"
+msgstr ""
+
+#: includes/class-shortcode.php:125
+msgid "Category Filter"
+msgstr ""
+
+#: includes/class-shortcode.php:132
+#: includes/shortcodes/shortcode-search1.php:48
+#: includes/templates/admin-theme-settings-property.php:17
+#: library/admin/assets/theme-settings-general.php:228
+msgid "None"
+msgstr ""
+
+#: includes/class-shortcode.php:139
+msgid "Use Custom Terms"
+msgstr ""
+
+#: includes/class-shortcode.php:145
+msgid ""
+"To display specific terms only, please enable. if you use custom terms.."
+msgstr ""
+
+#: includes/class-shortcode.php:147
+#: includes/templates/template-map-template-settings.php:28
+#: includes/templates/template-map-template-settings.php:73
+#: includes/templates/template-map-template-settings.php:105
+#: library/admin/assets/theme-settings-footer.php:78
+#: library/admin/assets/theme-settings-general.php:26
+#: library/admin/assets/theme-settings-general.php:157
+#: library/admin/assets/theme-settings-general.php:171
+#: library/admin/assets/theme-settings-general.php:185
+#: library/admin/assets/theme-settings-general.php:199
+#: library/admin/assets/theme-settings-general.php:212
+#: library/admin/assets/theme-settings-header.php:232
+#: library/admin/assets/theme-settings-header.php:255
+#: library/widgets/wg-javo-menu-button-item-submit.php:141
+#: library/widgets/wg-javo-menu-button-login.php:145
+#: library/widgets/wg-javo-menu-button-right-menu.php:82
+msgid "Enable"
+msgstr ""
+
+#: includes/class-shortcode.php:155
+msgid "Custom Terms IDs"
+msgstr ""
+
+#: includes/class-shortcode.php:162
+msgid ""
+"Enter category IDs separated by commas (ex: 13,23,18). To exclude categories "
+"please add '-' (ex: -9, -10)"
+msgstr ""
+
+#: includes/class-template.php:128
+#: lava-real-estate-manager/single-property.php:76
+msgid "Condition"
+msgstr ""
+
+#: includes/class-template.php:133
+#: lava-real-estate-manager/single-property.php:152
+#: library/dashboard/mypage-edit-my-profile.php:220
+msgid "Description"
+msgstr ""
+
+#: includes/class-template.php:138 includes/templates/html-map-mainFilter.php:9
+#: includes/templates/html-map-mainFilter.php:14
+#: lava-real-estate-manager/single-property.php:125
+#: lava-real-estate-manager/single-property.php:169
+#: templates/parts/part-multiple-listing-type-list.php:6
+#: templates/parts/part-multiple-listing-type-list.php:13
+msgid "Location"
+msgstr ""
+
+#: includes/class-template.php:205
+msgid "Not found template type"
+msgstr ""
+
+#: includes/class-template.php:282
+#: includes/templates/mypage-add-property.php:25
+msgid "New Property"
+msgstr ""
+
+#: includes/class-template.php:288
+msgid "My Properties"
+msgstr ""
+
+#: includes/function-property.php:18
+msgid "StreetView"
+msgstr ""
+
+#: includes/function-property.php:20
+msgid ""
+"This location is not supported by google StreetView or the location did not "
+"add."
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:28
+msgid "Featured Item 1"
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:29
+#: includes/shortcodes/shortcode-search1.php:70
+msgid "Javo"
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:34
+#: includes/shortcodes/shortcode-search1.php:78
+#: library/admin/templates/page-option-header.php:92
+#: library/widgets/wg-javo-recent-post.php:105
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:42
+msgid "Random Ordering "
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:46
+msgid "Able to order randomly"
+msgstr ""
+
+#: includes/shortcodes/shortcode-jv_featured_properties.php:107
+msgid "Not found featured property."
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:44
+msgid "Fields"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:49
+#: includes/shortcodes/shortcode-search1.php:177
+#: includes/templates/html-map-filter.php:45
+#: templates/parts/part-multiple-listing-type-list.php:24
+#: templates/parts/part-multiple-listing-type-list.php:31
+msgid "Keyword"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:50
+msgid "Property Type"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:51
+msgid "Property Status"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:52
+msgid "Property City"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:53
+#: lava-real-estate-manager/single-property.php:83
+msgid "Bedrooms"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:54
+#: lava-real-estate-manager/single-property.php:109
+msgid "Bathrooms"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:55
+#: lava-real-estate-manager/single-property.php:91
+msgid "Garages"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:56
+#: includes/templates/html-map-filter.php:54
+#: lava-real-estate-manager/single-property.php:45
+#: lava-real-estate-manager/single-property.php:99
+#: templates/parts/part-multiple-listing-type-list.php:37
+msgid "Price"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:57
+#: includes/shortcodes/shortcode-search1.php:266
+msgid "Property ID"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:64
+#: includes/templates/html-map-filter.php:137
+msgid "Filter"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:68
+msgid "Search 1"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:87
+msgid "Please select search result page"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:93
+msgid "Default Search Page"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:100
+msgid "Price filter Min"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:109
+msgid "Price filter Max"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:118
+#: includes/templates/admin-theme-settings-property.php:51
+msgid "Currency"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:129
+msgid "1 row, 1 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:130
+msgid "1 row, 2 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:131
+msgid "1 row, 3 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:132
+msgid "1 row, 4 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:133
+msgid "2 row, 1 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:134
+msgid "2 row, 2 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:135
+msgid "2 row, 3 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:136
+msgid "2 row, 4 column"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:184
+msgid "All Type"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:192
+#: templates/parts/part-multiple-listing-type-list.php:73
+msgid "All Status"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:200
+msgid "All City"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:208
+#: templates/parts/part-multiple-listing-type-list.php:88
+msgid "All Bedrooms"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:216
+#: templates/parts/part-multiple-listing-type-list.php:96
+msgid "All Bathrooms"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:224
+#: templates/parts/part-multiple-listing-type-list.php:104
+msgid "All Garages"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:238
+#: includes/templates/html-map-filter.php:60
+#: templates/parts/part-multiple-listing-type-list.php:239
+msgid "To"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:260
+msgid "Not Found Any Amenities"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:296
+msgid "Please, active to the 'Lava Real Estate manager' plugin"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:320
+#: lava-real-estate-manager/single-property.php:142
+#: templates/parts/part-multiple-listing-type-list.php:111
+msgid "Amenities"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:331
+msgid "More FIlters"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:335
+msgid "Less Filters"
+msgstr ""
+
+#: includes/shortcodes/shortcode-search1.php:342
+#: includes/templates/header-search-form.php:77
+msgid "Search"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:5
+msgid "Map Common Settings"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:8
+msgid "Map listing setting"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:11
+#: library/admin/templates/page-option-header.php:119
+msgid "Background color"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:16
+msgid "Background image"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:19
+#: library/admin/assets/theme-settings-banners.php:10
+#: library/admin/assets/theme-settings-footer.php:87
+#: library/admin/assets/theme-settings-general.php:44
+#: library/admin/assets/theme-settings-logo.php:17
+#: library/admin/assets/theme-settings-logo.php:28
+#: library/admin/assets/theme-settings-logo.php:39
+#: library/admin/assets/theme-settings-logo.php:51
+#: library/admin/assets/theme-settings-logo.php:63
+#: library/admin/assets/theme-settings-logo.php:81
+#: library/admin/assets/theme-settings-logo.php:94
+msgid "Select Image"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:20
+#: library/admin/assets/theme-settings-banners.php:11
+#: library/admin/assets/theme-settings-footer.php:88
+#: library/admin/assets/theme-settings-general.php:45
+#: library/admin/assets/theme-settings-logo.php:18
+#: library/admin/assets/theme-settings-logo.php:29
+#: library/admin/assets/theme-settings-logo.php:40
+#: library/admin/assets/theme-settings-logo.php:52
+#: library/admin/assets/theme-settings-logo.php:64
+#: library/admin/assets/theme-settings-logo.php:82
+#: library/admin/assets/theme-settings-logo.php:95
+msgid "Delete"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-map.php:22
+#: library/admin/assets/theme-settings-banners.php:13
+#: library/admin/assets/theme-settings-footer.php:90
+#: library/admin/assets/theme-settings-general.php:48
+#: library/admin/assets/theme-settings-logo.php:20
+#: library/admin/assets/theme-settings-logo.php:31
+#: library/admin/assets/theme-settings-logo.php:42
+#: library/admin/assets/theme-settings-logo.php:55
+#: library/admin/assets/theme-settings-logo.php:66
+#: library/admin/assets/theme-settings-logo.php:85
+#: library/admin/assets/theme-settings-logo.php:98
+msgid "Preview"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:2
+msgid "Property Settings"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:6
+msgid "Single Property"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:9
+msgid "Header Cover Style"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:18
+msgid "Top & Bottom Shadow"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:19
+msgid "Full Cover Overlay"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:33
+msgid "Mobile Search"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:36
+msgid "Search Result Map Page"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:56
+msgid "Min Price"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:61
+msgid "Max Price"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:66
+msgid "Columns"
+msgstr ""
+
+#: includes/templates/admin-theme-settings-property.php:79
+msgid "Column"
+msgstr ""
+
+#: includes/templates/header-search-form.php:13
+msgid "Search.."
+msgstr ""
+
+#: includes/templates/header-search-form.php:21
+msgid "Check In"
+msgstr ""
+
+#: includes/templates/header-search-form.php:24
+msgid "Check Out"
+msgstr ""
+
+#: includes/templates/header-search-form.php:33
+#, php-format
+msgid "%02d Guests"
+msgstr ""
+
+#: includes/templates/header-search-form.php:43
+msgid "Entire Place"
+msgstr ""
+
+#: includes/templates/header-search-form.php:44
+msgid "Private Room"
+msgstr ""
+
+#: includes/templates/header-search-form.php:45
+msgid "Shared Room"
+msgstr ""
+
+#: includes/templates/html-list-box-contents.php:12
+#: includes/templates/html-list-box-contents.php:85
+msgid "View"
+msgstr ""
+
+#: includes/templates/html-list-box-contents.php:71
+msgid "More"
+msgstr ""
+
+#: includes/templates/html-map-block-template.php:5
+#: includes/templates/html-map-popup-contents.php:8
+msgid "Featured"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:15
+#: lava-real-estate-manager/single-property.php:35
+#: library/functions/class-tgm-plugin-activation.php:2457
+msgid "Type"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:19
+msgid "Any Types"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:29
+#: lava-real-estate-manager/single-property.php:40
+#: library/admin/class-admin-helper.php:183
+#: library/functions/class-tgm-plugin-activation.php:2462
+msgid "Status"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:33
+msgid "Any Status"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:59
+#: templates/parts/part-multiple-listing-type-list.php:47
+msgid "No Min"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:61
+#: templates/parts/part-multiple-listing-type-list.php:48
+msgid "No Max"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:76
+msgid "All"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:117
+#, php-format
+msgid "Not Found %s"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:127
+#: templates/parts/part-multiple-listing-type-map.php:33
+msgid "Apply Filters"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:136
+msgid "Advanced"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:143
+msgid "Reset"
+msgstr ""
+
+#: includes/templates/html-map-filter.php:150
+msgid "Listing(s)"
+msgstr ""
+
+#: includes/templates/html-map-grid-template.php:6
+msgid "New"
+msgstr ""
+
+#: includes/templates/part-single-header.php:11
+#: library/admin/assets/theme-settings-footer.php:14
+msgid "Top"
+msgstr ""
+
+#: includes/templates/scripts-map-multipleBox.php:6
+msgid "Please add address or you added a wrong address"
+msgstr ""
+
+#: includes/templates/template-map-multipleBox.php:14
+#: includes/templates/template-map-template-settings.php:36
+msgid "List"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:4
+msgid "Filter Position"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:6
+msgid "with Listing ( Default )"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:7
+msgid "with Switcher"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:11
+msgid "Map Types"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:13
+msgid "Box ( Default )"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:14
+#: library/admin/assets/theme-settings-footer.php:59
+#: library/admin/assets/theme-settings-general.php:13
+#: library/admin/assets/theme-settings-header.php:15
+#: library/admin/templates/page-options.php:87
+#: library/admin/templates/page-options.php:92
+#: library/admin/templates/page-options.php:112
+msgid "Wide"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:18
+msgid "Panel Position"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:20
+msgid "Right ( Default )"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:21
+#: library/admin/templates/page-option-header.php:10
+#: library/admin/templates/page-option-sidebar.php:8
+msgid "Left"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:22
+msgid "Top-Bottom"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:26
+msgid "Display Switch"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:29
+#: includes/templates/template-map-template-settings.php:77
+#: includes/templates/template-map-template-settings.php:109
+#: library/admin/assets/theme-settings-footer.php:81
+#: library/admin/assets/theme-settings-general.php:30
+#: library/admin/assets/theme-settings-general.php:101
+#: library/admin/assets/theme-settings-general.php:161
+#: library/admin/assets/theme-settings-general.php:175
+#: library/admin/assets/theme-settings-general.php:189
+#: library/admin/assets/theme-settings-general.php:203
+#: library/admin/assets/theme-settings-general.php:216
+#: library/admin/assets/theme-settings-header.php:9
+#: library/admin/templates/page-options.php:103
+msgid "Disable"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:33
+msgid "Default Listing Type"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:67
+msgid "Marker Cluster ( Grouping )"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:87
+msgid "Default : Panel on Javo map wide"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:92
+msgid "Open"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:96
+#: templates/parts/modal-contact-us.php:37
+#: templates/parts/modal-register.php:96
+msgid "Close"
+msgstr ""
+
+#: includes/templates/template-map-template-settings.php:100
+msgid "Click markers - zoom in option"
+msgstr ""
+
+#: index.php:30
+msgid "No posts to display"
+msgstr ""
+
+#: index.php:34
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: lava-real-estate-manager/lava-map-template.php:26
+msgid "Not found data"
+msgstr ""
+
+#: lava-real-estate-manager/single-property.php:50
+#: lava-real-estate-manager/single-property.php:117
+msgid "Area"
+msgstr ""
+
+#: lava-real-estate-manager/single-property.php:59
+msgid "Detail Images"
+msgstr ""
+
+#: lava-real-estate-manager/single-property.php:138
+msgid "Keyword(s)"
+msgstr ""
+
+#: lava-real-estate-manager/single-property.php:160
+msgid "Read More"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:9
+msgid "Author"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:14
+#: library/admin/assets/theme-settings-contact.php:15
+#: library/dashboard/mypage-member.php:93
+#: library/functions/functions-box-map.php:168
+msgid "Phone"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:18
+msgid "Properties"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:32
+msgid " Contact"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:78
+msgid "contact"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:94
+#: lava-real-estate-manager/widget-single-contact.php:129
+msgid "Share"
+msgstr "Partager"
+
+#: lava-real-estate-manager/widget-single-contact.php:101
+msgid "Report"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:148
+msgid "Copy URL"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:159
+#: library/dashboard/mypage-edit-my-profile.php:231
+#: library/dashboard/mypage-edit-my-profile.php:232
+#: library/dashboard/mypage-member.php:113
+msgid "Facebook"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:165
+#: library/admin/assets/theme-settings-contact.php:55
+#: library/dashboard/mypage-edit-my-profile.php:227
+#: library/dashboard/mypage-edit-my-profile.php:228
+#: library/dashboard/mypage-member.php:108
+msgid "Twitter"
+msgstr ""
+
+#: lava-real-estate-manager/widget-single-contact.php:171
+msgid "Google +"
+msgstr ""
+
+#: library/active_plugins.php:121
+#: library/functions/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/active_plugins.php:122
+#: library/functions/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: library/active_plugins.php:123
+#: library/functions/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/active_plugins.php:124
+#: library/functions/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/active_plugins.php:126
+#: library/functions/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:131
+#: library/functions/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:136
+#: library/functions/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:141
+#: library/functions/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:146
+#: library/functions/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:151
+#: library/functions/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:156
+#: library/functions/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:161
+#: library/functions/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:166
+#: library/functions/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:171
+#: library/functions/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:176
+#: library/functions/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:181
+#: library/functions/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/active_plugins.php:185
+#: library/functions/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/active_plugins.php:186
+#: library/functions/class-tgm-plugin-activation.php:399
+#: library/functions/class-tgm-plugin-activation.php:3048
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/active_plugins.php:187
+#: library/functions/class-tgm-plugin-activation.php:400
+#: library/functions/class-tgm-plugin-activation.php:2851
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgstr ""
+"#-#-#-#-#  17extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  25extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  29extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  34extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  37extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  50extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  53extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: library/active_plugins.php:188
+#: library/functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: library/active_plugins.php:189
+#: library/functions/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: library/active_plugins.php:190
+#: library/functions/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/active_plugins.php:191
+#: library/functions/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:2
+msgid "APIs Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:5
+msgid "Google API"
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:7
+msgid "Paste your Google Analytic tracking codes here."
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:10
+msgid "Google Analystics Code"
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:15
+msgid "MailChimp API"
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:17
+msgid "Mail-Chimp API Key"
+msgstr ""
+
+#: library/admin/assets/theme-settings-api.php:20
+msgid "API KEY"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:2
+msgid "Banners Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:5
+msgid "Footer Top Banner Image Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:7
+msgid "Banner Image"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:17
+msgid "Banner Link"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:24
+msgid "Image Width (Max 1000px)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-banners.php:30
+msgid "Image Height (Max 300px)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:2
+msgid "Contact Information Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:5
+msgid "Contact Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:7
+msgid "Add Your Contact Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:10
+msgid "Address"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:20
+#: library/dashboard/mypage-edit-my-profile.php:184
+#: library/dashboard/mypage-member.php:98
+msgid "Mobile"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:25
+#: library/dashboard/mypage-edit-my-profile.php:188
+#: library/dashboard/mypage-member.php:103
+msgid "Fax"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:30
+#: library/dashboard/mypage-edit-my-profile.php:171
+#: library/dashboard/mypage-member.php:88
+#: library/functions/functions-box-map.php:169
+#: templates/parts/modal-contact-us.php:17
+msgid "Email"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:35
+msgid "Working Hours"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:40
+msgid "Additional Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:45
+msgid "Social Network Service IDs"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:47
+msgid "Add your SSN information."
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:50
+msgid "Facebook  ex) https://facebook.com/your_name"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:60
+msgid "Google+"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:65
+msgid "Dribbble"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:70
+msgid "Forrst"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:75
+msgid "Pinterest"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:80
+msgid "Instagram"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:85
+#: library/functions/functions-box-map.php:170
+msgid "Website"
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:2
+msgid "Javo Customization Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:5
+msgid "CSS Stylesheet"
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:6
+msgid "Please Add Your Custom CSS Code Here."
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:8
+#: library/admin/assets/theme-settings-custom.php:20
+msgid "Code:"
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:15
+msgid "Custom Script"
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:17
+msgid " If you have additional script, please add here."
+msgstr ""
+
+#: library/admin/assets/theme-settings-custom.php:26
+msgid ""
+"(Note : Please make sure that your scripts are NOT conflict with our own "
+"script or ajax core)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:4
+msgid "Fonts Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:7
+msgid "Basic Font"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:9
+#: library/admin/assets/theme-settings-font.php:44
+#: library/admin/assets/theme-settings-font.php:79
+#: library/admin/assets/theme-settings-font.php:114
+#: library/admin/assets/theme-settings-font.php:150
+#: library/admin/assets/theme-settings-font.php:186
+#: library/admin/assets/theme-settings-font.php:222
+msgid "Setup font size, tags"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:12
+msgid "Choose basic font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:26
+msgid "Normal Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:34
+#: library/admin/assets/theme-settings-font.php:69
+#: library/admin/assets/theme-settings-font.php:104
+#: library/admin/assets/theme-settings-font.php:140
+#: library/admin/assets/theme-settings-font.php:176
+#: library/admin/assets/theme-settings-font.php:212
+#: library/admin/assets/theme-settings-font.php:248
+msgid "Line height"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:42
+msgid "H1"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:47
+msgid "Choose H1 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:61
+msgid "H1 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:77
+msgid "H2"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:82
+msgid "Choose H2 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:96
+msgid "H2 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:112
+msgid "H3"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:117
+msgid "Choose H3 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:131
+msgid "H3 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:148
+msgid "H4"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:153
+msgid "Choose H4 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:167
+msgid "H4 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:184
+msgid "H5"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:189
+msgid "Choose H5 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:203
+msgid "H5 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:220
+msgid "H6"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:225
+msgid "Choose H6 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:239
+msgid "H6 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:2
+msgid "Footer Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:5
+#: library/admin/assets/theme-settings-general.php:118
+msgid "Color Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:7
+msgid "You can change colors on footer area."
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:11
+msgid "Footer Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:19
+msgid "Middle"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:24
+#: library/admin/templates/page-option-header.php:17
+msgid "Bottom"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:28
+msgid "Footer Title Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:33
+msgid "Footer Title Underline Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:38
+msgid "Footer Content Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:43
+msgid "Footer Content Link Hover Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:51
+msgid "Footer Layout Option"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:55
+msgid "Footer Type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:63
+#: library/admin/assets/theme-settings-general.php:18
+#: library/admin/templates/page-options.php:88
+#: library/admin/templates/page-options.php:93
+msgid "Boxed"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:70
+msgid "Footer Background Option"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:72
+msgid "You can add a background image on footer area."
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:75
+msgid "Background status"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:84
+msgid "Image Upload"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:94
+msgid "Background Size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:98
+msgid "Contain"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:99
+msgid "Cover"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:103
+#: library/admin/assets/theme-settings-footer.php:123
+msgid "Select"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:112
+msgid "Background Repeat"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:116
+msgid "Repeat X, Y"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:117
+msgid "Repeat-X"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:118
+msgid "Repeat-Y"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:119
+msgid "No-Repeat"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:132
+msgid "Opacity (0.1 ~ 1)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:137
+msgid "Copyright Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:139
+msgid "Type your copyright information. It will be displayed on footer."
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:142
+msgid "Copyright Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:147
+msgid "Display Text or HTML"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:3
+#: library/admin/assets/theme-settings-header.php:44
+#: library/admin/class-admin-theme-settings.php:82
+#: library/admin/templates/page-options.php:6
+msgid "General"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:6
+msgid "Page Layout Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:8
+msgid "Page Layout"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:22
+msgid "Boxed layout shadow"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:35
+msgid "Blank Image Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:37
+msgid ""
+"Blank (or white) images are shown when no images are available. The "
+"preferred dimensions are 300x300."
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:40
+msgid "Blank Image"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:53
+msgid "Login Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:55
+msgid "The page to redirect users to after a successful login."
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:58
+msgid "Login Modal Style"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:62
+msgid "Classic Style"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:63
+msgid "Simple Style (Default)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:76
+msgid "Redirect to"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:80
+msgid "Main Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:81
+msgid "Current Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:82
+msgid "Wordpress Profile Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:87
+msgid "Profile Page (Default)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:98
+msgid "User Agreement"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:105
+msgid "Select a page for user agreement"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:120
+msgid "Choose colors to match your theme."
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:124
+msgid "Primary Color Selection"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:129
+msgid "Primary Font Color Selection"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:134
+msgid "Border Color Setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:136
+msgid "Use"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:137
+msgid "Not Use"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:140
+msgid "Border Color Selection"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:147
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:149
+msgid "Other Miscellaneous Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:152
+msgid "Preloader"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:166
+msgid "Fixed Contact-Us Button (on Right-Buttom)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:180
+msgid "Soft Scroll for Mouse Wheel"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:194
+msgid "Wordpress Admin Top Bar (Except for the Admin)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:208
+msgid "Use Lazy Loading Images"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:221
+msgid "Contact Form Modal Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:223
+msgid "This form is for Contact Modal"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:232
+msgid "Contact Form"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:236
+msgid "Ninja Form"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:242
+msgid "Contact Form ID"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:245
+msgid "To create a Contact Form ID, please go to the Contact Form Menu."
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:5
+#: library/admin/templates/page-options.php:98
+msgid "Dark"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:6
+#: library/admin/templates/page-options.php:97
+msgid "Light"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:10
+#: library/admin/templates/page-options.php:102
+msgid "Able"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:14
+#: library/admin/templates/page-option-header.php:11
+#: library/admin/templates/page-option-header.php:16
+#: library/admin/templates/page-options.php:111
+msgid "Center"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:18
+#: library/admin/templates/page-options.php:117
+msgid "Transparency menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:19
+#: library/admin/templates/page-options.php:116
+msgid "Default menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:25
+msgid "Heading Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:28
+msgid "My Page Menu Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:30
+msgid "My page menu settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:33
+msgid "Display My Page Menu in the Navigation Bar"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:36
+msgid "Enabled"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:38
+msgid "Please make sure to create a permarlink."
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:39
+msgid "Please select \"POST NAME\" in the permarlink list"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:41
+msgid "Default Style"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:49
+msgid "Header Menu Type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:62
+msgid "2 Rows Type Navigation Transparency"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:65
+#: library/admin/assets/theme-settings-header.php:90
+#: library/admin/assets/theme-settings-header.php:162
+#: library/admin/assets/theme-settings-header.php:205
+#: library/admin/assets/theme-settings-header.php:330
+#: library/admin/templates/page-option-navi.php:97
+#: library/admin/templates/page-option-navi.php:293
+#: library/admin/templates/page-option-sticky.php:96
+msgid ""
+"Please enter numerical value from 0.0 to 1.0. Higer value put in, more "
+"transparent it will be. <br> Ex) 0.5=opaque"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:70
+#: library/admin/assets/theme-settings-header.php:209
+#: library/admin/templates/page-option-navi.php:31
+msgid "Header Menu Skin"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:79
+#: library/admin/assets/theme-settings-header.php:175
+#: library/admin/assets/theme-settings-header.php:218
+#: library/admin/templates/page-option-navi.php:46
+msgid ""
+"Depends on this option, logo changes to the color appropriate to the skin "
+"and if selected logo of skin option is not uploaded, theme's basic logo will "
+"be shown."
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:83
+#: library/admin/templates/page-option-navi.php:54
+msgid "Initial Header Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:87
+#: library/admin/assets/theme-settings-header.php:327
+#: library/admin/templates/page-option-navi.php:71
+msgid "Initial Header Transparency"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:94
+#: library/admin/templates/page-option-navi.php:105
+msgid "Header Size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:97
+#: library/admin/templates/page-option-navi.php:125
+msgid "Pixcel"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:101
+#: library/admin/templates/page-option-navi.php:132
+msgid "Navi Shadow"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:113
+#: library/admin/templates/page-option-navi.php:153
+msgid "Navi Position"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:125
+#: library/admin/assets/theme-settings-header.php:297
+#: library/admin/templates/page-option-navi.php:174
+msgid "Navi Type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:134
+#: library/admin/assets/theme-settings-header.php:306
+#: library/admin/templates/page-option-navi.php:188
+msgid ""
+"Caution: If you choose transparent menu type, page's main text contents "
+"ascends as much as menu's height to make menu transparent."
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:138
+msgid "Sticky Menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:141
+#: library/admin/templates/page-option-navi.php:205
+#: library/admin/templates/page-option-sticky.php:8
+msgid "Sticky Navi on / off"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:153
+#: library/admin/templates/page-option-navi.php:250
+#: library/admin/templates/page-option-sticky.php:53
+msgid "Initial Sticky Header Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:159
+#: library/admin/templates/page-option-navi.php:267
+#: library/admin/templates/page-option-sticky.php:70
+msgid "Initial Sticky Header Transparency"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:166
+msgid "Sticky Menu Skin"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:180
+msgid "Sticky Menu Shadow"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:193
+msgid "Navi on mobile setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:196
+msgid "Initial Mobile Header Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:202
+msgid "Initial Mobile Header Transparency"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:223
+msgid "Canvas Menu Button"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:241
+#: library/admin/assets/theme-settings-header.php:264
+#: library/widgets/wg-javo-menu-button-item-submit.php:151
+#: library/widgets/wg-javo-menu-button-login.php:155
+#: library/widgets/wg-javo-menu-button-right-menu.php:91
+msgid "Hide"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:246
+msgid "Responsive Menu Button"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:270
+msgid "Responsive Menu ( with Mobile )"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:273
+msgid "Default background"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:279
+msgid "Responsive Menu Skin"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:293
+msgid "Single Page Menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:313
+msgid "Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:320
+msgid "Text Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:335
+msgid "Navi Space Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:338
+msgid "Navi Height"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:345
+msgid "Navi Padding Left"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:352
+msgid "Navi Padding Right"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:359
+msgid "Navi Padding Top"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:366
+msgid "Navi Padding Bottom"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:8
+msgid "Theme Settings Default Values"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:11
+msgid "Import"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:13
+msgid ""
+"Please paste your previously saved theme settings values into the adjacent "
+"box. This may help you restore any backed-up theme settings."
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:16
+msgid "Please paste your saved source into the box below."
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:20
+msgid "Import options"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:22
+msgid "Export"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:24
+msgid ""
+"Please copy and save the text in the adjacent box as a restore point for "
+"your preferred theme settings."
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:27
+msgid "Please select and copy the source from the box below."
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:33
+msgid "Reset options"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:37
+msgid "Warning:"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:38
+msgid "All values will be removed."
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:43
+msgid "RESET DEFAULT OPTIONS"
+msgstr ""
+
+#: library/admin/assets/theme-settings-import.php:44
+msgid "RESET OPTIONS"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:4
+#: library/admin/assets/theme-settings-logo.php:77
+#: library/admin/class-admin-theme-settings.php:83
+msgid "Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:7
+msgid "Header Logo Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:9
+msgid ""
+"Uploaded logos will be displayed on the header in their appropriate "
+"locations."
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:14
+msgid "Main Logo ( Dark / Default )"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:25
+msgid "Main Logo ( Light )"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:36
+msgid "Mobile Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:47
+#: library/admin/assets/theme-settings-logo.php:90
+msgid "Retina Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:60
+msgid "Single Item Page Logo Image"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:72
+msgid "Footer Logo Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-logo.php:74
+msgid ""
+"Uploaded logos will be displayed on the footer in their appropriate "
+"locations."
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:2
+#: library/admin/class-admin-theme-settings.php:86
+msgid "Single Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:5
+msgid "Single Property Color Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:7
+msgid "The color set up here will have the first priority to be applied."
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:10
+msgid "Backgound Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:15
+msgid "Background Color (Box layout)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:20
+#: library/admin/templates/page-option-header.php:100
+msgid "Title Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:25
+msgid "Location Title Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-singlepage.php:30
+msgid "Description Text Color"
+msgstr ""
+
+#: library/admin/class-admin-helper.php:182
+#: library/admin/class-admin-helper.php:194
+#: library/admin/class-admin-helper.php:207
+#, php-format
+msgid "%s Status"
+msgstr ""
+
+#: library/admin/class-admin-helper.php:195
+msgid "Plugins"
+msgstr ""
+
+#: library/admin/class-admin-helper.php:208
+msgid "Theme Settings"
+msgstr ""
+
+#: library/admin/class-admin-helper.php:217
+msgid "Welcome"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:24
+msgid "Link Format Options"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:25
+msgid "Quote Format Options"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:26
+msgid "Video Format Options"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:27
+msgid "Audio Format Options"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:40
+msgid "Page Settings"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:61
+msgid "Link"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:74
+msgid "Quote"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:86
+msgid "Choose Video Type"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:88
+msgid "Select Portal"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:89
+msgid "Youtube"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:90
+msgid "Vimeo"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:97
+msgid "Video ID"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:110
+msgid "Audio Link"
+msgstr ""
+
+#: library/admin/class-admin-metabox.php:307
+msgid "Sorry, find address failed"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:47
+msgid "Theme settings"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:84
+msgid "Fonts"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:85
+#: library/admin/templates/page-options.php:17
+msgid "Header"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:87
+#: library/admin/templates/page-options.php:27
+msgid "Footer"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:88
+msgid "API"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:89
+msgid "Contact Info"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:91
+msgid "Custom CSS / JS"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:92
+msgid "Import / Export"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:163
+msgid "Javo Directory"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:165
+msgid "Theme settings save successfully."
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:180
+#: library/admin/templates/step-demo-installed.php:16
+#: library/admin/templates/step-menu-installed.php:15
+#: library/admin/templates/step-permalink.php:19
+#: library/admin/templates/step-plugin-actived.php:23
+#: library/admin/templates/step-setting-updated.php:15
+#: library/admin/templates/step-static-installed.php:14
+#: library/admin/templates/step-widget-installed.php:14
+msgid "Documentation"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:228
+#: library/admin/templates/plugins.php:52
+msgid "Processing..."
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:266
+msgid "Warning : All option results remove and Style initialize. \\n Continue?"
+msgstr ""
+
+#: library/admin/class-admin-theme-settings.php:267
+msgid "Warning : Change option. can`t option restore. \\n Continue?"
+msgstr ""
+
+#: library/admin/templates/page-option-footer.php:5
+msgid "Layout Type"
+msgstr ""
+
+#: library/admin/templates/page-option-general.php:3
+msgid "Page Background Color"
+msgstr ""
+
+#: library/admin/templates/page-option-general.php:12
+#: library/admin/templates/page-option-navi.php:23
+#: library/admin/templates/page-option-navi.php:63
+#: library/admin/templates/page-option-navi.php:259
+#: library/admin/templates/page-option-sticky.php:62
+msgid ""
+"If color value is not inserted, it will be replaced to color set from theme "
+"settings"
+msgstr ""
+
+#: library/admin/templates/page-option-general.php:20
+msgid "Page Layout Type"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:5
+msgid "no-repeat"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:6
+msgid "repeat-x"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:7
+msgid "repeat-y"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:12
+#: library/admin/templates/page-option-sidebar.php:12
+msgid "Right"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:15
+msgid "top"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:37
+msgid "Select Slider"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:46
+msgid "Empty Slider"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:52
+msgid "Please install revolition slider plugin or create slide item."
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:59
+msgid "Show page title"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:63
+msgid "Hide page title"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:67
+msgid "Fancy Header"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:71
+msgid "Slide Show"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:78
+msgid "Title left"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:82
+msgid "Title center"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:86
+msgid "Title right"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:96
+msgid "Title Size"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:106
+msgid "Subtitle"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:110
+msgid "Subtitle Size"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:114
+msgid "Subtitle color"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:123
+msgid "Background Image"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:124
+#: library/dashboard/mypage-edit-my-profile.php:206
+msgid "Upload"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:127
+msgid "Background image preview"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:131
+msgid "Repeat Option"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:142
+msgid "Position X"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:153
+msgid "Position Y"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:165
+msgid "Height(pixel)"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:177
+msgid "Revolution"
+msgstr ""
+
+#: library/admin/templates/page-option-header.php:185
+msgid "Choose slider"
+msgstr ""
+
+#: library/admin/templates/page-option-navi.php:4
+msgid "Header Type"
+msgstr ""
+
+#: library/admin/templates/page-option-navi.php:201
+msgid "Sticky Menu Options"
+msgstr ""
+
+#: library/admin/templates/page-option-navi.php:227
+#: library/admin/templates/page-option-sticky.php:30
+msgid "Sticky Header Menu Skin"
+msgstr ""
+
+#: library/admin/templates/page-option-navi.php:242
+#: library/admin/templates/page-option-sticky.php:45
+msgid ""
+"Depends on this option, logo changes to the color appropriate to the skin "
+"and if selected logo of skin option is not uploaded, theme's basic logo will "
+"be shown. "
+msgstr ""
+
+#: library/admin/templates/page-option-navi.php:304
+msgid "Sticky Navi Shadow"
+msgstr ""
+
+#: library/admin/templates/page-option-page.php:5
+msgid "Option Name"
+msgstr ""
+
+#: library/admin/templates/page-option-page.php:6
+msgid "Value"
+msgstr ""
+
+#: library/admin/templates/page-option-page.php:11
+msgid "Footer Layout Type"
+msgstr ""
+
+#: library/admin/templates/page-option-sidebar.php:16
+msgid "Fullwidth"
+msgstr ""
+
+#: library/admin/templates/page-option-sticky.php:4
+msgid "Sticky Options"
+msgstr ""
+
+#: library/admin/templates/page-options.php:12
+msgid "Sidebar"
+msgstr ""
+
+#: library/admin/templates/page-options.php:22
+msgid "Menu"
+msgstr ""
+
+#: library/admin/templates/page-options.php:82
+#: library/admin/templates/page-options.php:86
+#: library/admin/templates/page-options.php:91
+#: library/admin/templates/page-options.php:96
+#: library/admin/templates/page-options.php:101
+#: library/admin/templates/page-options.php:106
+#: library/admin/templates/page-options.php:110
+#: library/admin/templates/page-options.php:115
+msgid "Default as theme settings"
+msgstr ""
+
+#: library/admin/templates/page-options.php:107
+msgid "Custom setting for this page"
+msgstr ""
+
+#: library/admin/templates/page-options.php:141
+msgid "Settings"
+msgstr ""
+
+#: library/admin/templates/page-options.php:146
+msgid "Not found settings."
+msgstr ""
+
+#: library/admin/templates/plugins.php:30
+#: library/dashboard/mypage-edit-my-profile.php:128
+#: library/functions/class-tgm-plugin-activation.php:2186
+msgid "Required"
+msgstr ""
+
+#: library/admin/templates/plugins.php:42
+msgid "Update Available:"
+msgstr ""
+
+#: library/admin/templates/plugins.php:43
+#: library/functions/class-tgm-plugin-activation.php:2461
+msgid "Version"
+msgstr ""
+
+#: library/admin/templates/status.php:5
+msgid "Active Requested Plugins"
+msgstr ""
+
+#: library/admin/templates/status.php:13
+msgid "Javo Home Core"
+msgstr ""
+
+#: library/admin/templates/status.php:14
+msgid "Lava Real Estate Manager"
+msgstr ""
+
+#: library/admin/templates/status.php:15
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: library/admin/templates/status.php:16
+msgid "Ultimate Addons for Visual Composer"
+msgstr ""
+
+#: library/admin/templates/status.php:20
+msgid "Demo Installation"
+msgstr ""
+
+#: library/admin/templates/status.php:24
+msgid "Permalink Setup"
+msgstr ""
+
+#: library/admin/templates/status.php:28
+msgid "Widget Installation"
+msgstr ""
+
+#: library/admin/templates/status.php:32
+msgid "Menu Setup"
+msgstr ""
+
+#: library/admin/templates/status.php:36
+msgid "Front Page Setup"
+msgstr ""
+
+#: library/admin/templates/status.php:40
+msgid "Theme Settings Setup"
+msgstr ""
+
+#: library/admin/templates/status.php:46
+msgid "Default Setting / System Status"
+msgstr ""
+
+#: library/admin/templates/status.php:50
+msgid ""
+"Please have a look at default settings and system status. default settings "
+"is for you should complete (100%) to use our theme properly."
+msgstr ""
+
+#: library/admin/templates/status.php:56
+msgid "Default Settings Status"
+msgstr ""
+
+#: library/admin/templates/status.php:58
+msgid "Loading"
+msgstr ""
+
+#: library/admin/templates/status.php:58 library/admin/templates/status.php:65
+msgid "Completed"
+msgstr ""
+
+#: library/admin/templates/status.php:61
+msgid ""
+"These default settings should be installed or actived to make this theme "
+"work properly."
+msgstr ""
+
+#: library/admin/templates/status.php:65
+msgid "Incompleted"
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:4
+msgid "Demo data has been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:8
+msgid "You have not added any data yet."
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:9
+msgid ""
+"You can simply import a demo data if you want to make your site like one of "
+"our demo sites. after you import, you can still customize them."
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:10
+msgid "Visit to install demo data."
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:12
+msgid "Go Import Demo Page"
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:15
+msgid "Demo Import Documentation"
+msgstr ""
+
+#: library/admin/templates/step-demo-installed.php:17
+#: library/admin/templates/step-menu-installed.php:16
+#: library/admin/templates/step-permalink.php:20
+#: library/admin/templates/step-plugin-actived.php:24
+#: library/admin/templates/step-setting-updated.php:16
+#: library/admin/templates/step-widget-installed.php:15
+msgid "Setup Again"
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:4
+msgid "Menu has been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:8
+msgid "You have not added any menus."
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:9
+msgid "Please setup menus"
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:9
+msgid "here"
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:11
+msgid "Go Menu Settings"
+msgstr ""
+
+#: library/admin/templates/step-menu-installed.php:14
+msgid "Menu Setting Documentation"
+msgstr ""
+
+#: library/admin/templates/step-permalink.php:4
+msgid "Permalink has been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-permalink.php:8
+msgid ""
+"Our theme is compatible with permalink structure. it's also good for SEO."
+msgstr ""
+
+#: library/admin/templates/step-permalink.php:9
+msgid "Please setup permalink to 'Post name'."
+msgstr ""
+
+#: library/admin/templates/step-permalink.php:13
+msgid "Go Permalink Settings"
+msgstr ""
+
+#: library/admin/templates/step-permalink.php:18
+msgid "Permalink Documentation"
+msgstr ""
+
+#: library/admin/templates/step-plugin-actived.php:12
+msgid "Plugins have been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-plugin-actived.php:17
+msgid "Go to Plugin Active Page"
+msgstr ""
+
+#: library/admin/templates/step-plugin-actived.php:22
+msgid "Instal Plugin Documentation"
+msgstr ""
+
+#: library/admin/templates/step-setting-updated.php:4
+msgid "Initial theme settings have been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-setting-updated.php:8
+msgid "You have not setup any options on theme settings."
+msgstr ""
+
+#: library/admin/templates/step-setting-updated.php:9
+msgid "These will setup your logos, layouts, header options, colors."
+msgstr ""
+
+#: library/admin/templates/step-setting-updated.php:11
+msgid "Go to Theme Settings Page"
+msgstr ""
+
+#: library/admin/templates/step-setting-updated.php:14
+msgid "Theme Settings Documentation"
+msgstr ""
+
+#: library/admin/templates/step-static-installed.php:4
+msgid "Static front page (Main page) has been setup properly"
+msgstr ""
+
+#: library/admin/templates/step-static-installed.php:8
+msgid ""
+"This is for your front page ( main page ). you may need to select a page for "
+"your front page. ex) Home"
+msgstr ""
+
+#: library/admin/templates/step-static-installed.php:10
+#: library/admin/templates/step-static-installed.php:15
+msgid "Go to Reading Settings"
+msgstr ""
+
+#: library/admin/templates/step-static-installed.php:13
+msgid "Static Page Documentation"
+msgstr ""
+
+#: library/admin/templates/step-widget-installed.php:4
+msgid "Widgets have been setup properly."
+msgstr ""
+
+#: library/admin/templates/step-widget-installed.php:8
+msgid "We recommend you to add some widgets for proper functionality"
+msgstr ""
+
+#: library/admin/templates/step-widget-installed.php:10
+msgid "Go to Widgets Settings"
+msgstr ""
+
+#: library/admin/templates/step-widget-installed.php:13
+msgid "Widget Setting Documentation"
+msgstr ""
+
+#: library/admin/templates/welcome.php:8
+msgid ""
+"Are you first time to use our theme?If you are new to use this theme, please "
+"check your status."
+msgstr ""
+
+#: library/admin/templates/welcome.php:11
+msgid "1.If you are new to use this theme, please check your status."
+msgstr ""
+
+#: library/admin/templates/welcome.php:12
+msgid "2.Install and ative plugins."
+msgstr ""
+
+#: library/admin/templates/welcome.php:13
+msgid "3.Import demo data. (optional)"
+msgstr ""
+
+#: library/admin/templates/welcome.php:14
+msgid "4.Check theme settings and setup."
+msgstr ""
+
+#: library/dashboard/class-dashboard.php:90
+#: library/dashboard/mypage-edit-my-profile.php:102
+msgid "Edit My Profile"
+msgstr ""
+
+#: library/dashboard/class-dashboard.php:91
+#: library/dashboard/mypage-change-password.php:28
+#: library/dashboard/mypage-change-password.php:75
+msgid "Change Password"
+msgstr ""
+
+#: library/dashboard/class-dashboard.php:92
+msgid "My Items"
+msgstr ""
+
+#: library/dashboard/class-dashboard.php:93
+msgid "Post an Item"
+msgstr ""
+
+#: library/dashboard/class-dashboard.php:94
+#: library/dashboard/class-dashboard.php:97
+msgid "My Dashboard"
+msgstr ""
+
+#: library/dashboard/functions-dashboard.php:37
+msgid "DASHBOARD"
+msgstr ""
+
+#: library/dashboard/functions-dashboard.php:43
+#: library/dashboard/mypage-member.php:63
+msgid "Edit Profile"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:55
+msgid "Current Password"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:61
+msgid "Please enter your current password"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:65
+msgid "* To reset your password, provide your current password."
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:80
+msgid "Please enter new password"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:87
+msgid "confirm Password"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:92
+msgid "Please enter new password again"
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:96
+msgid "* Please enter your new password twice."
+msgstr ""
+
+#: library/dashboard/mypage-change-password.php:105
+msgid "Change password"
+msgstr ""
+
+#: library/dashboard/mypage-common-header.php:27
+msgid "Please check your password or password confirm."
+msgstr ""
+
+#: library/dashboard/mypage-common-header.php:31
+msgid "The new password and password confirm does not match."
+msgstr ""
+
+#: library/dashboard/mypage-common-header.php:42
+msgid "It has been successfully changed,"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:14
+msgid " Login ID"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:15
+msgid " First Name"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:16
+msgid " Last Name"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:18
+msgid " Password"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:19
+msgid " Re-enter Password"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:20
+msgid " Email Address"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:21
+msgid " Passwords do not match."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:22
+msgid " Password must be a minimum of 4 characters."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:27
+msgid " That Login ID already exists."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:33
+msgid " The email address you entered has already been used."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:69
+msgid "You have successfully changed your information!"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:69
+msgid "You have successfully created an account! Please log in."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:74
+msgid "Sorry. Could not create a Login ID."
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:142
+#: library/dashboard/mypage-edit-my-profile.php:143
+#: templates/parts/modal-login-type2.php:29
+#: templates/parts/modal-register.php:21 templates/parts/modal-register.php:22
+msgid "Username"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:147
+#: library/dashboard/mypage-member.php:83
+#: templates/parts/modal-contact-us.php:11
+msgid "Name"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:151
+#: templates/parts/modal-register.php:35
+msgid "First Name"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:154
+#: templates/parts/modal-register.php:42
+msgid "Last Name"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:162
+#: templates/parts/modal-login-type2.php:33
+#: templates/parts/modal-register.php:51
+msgid "Password"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:166
+msgid "Re-enter Password"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:180
+msgid "Telephone"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:193
+msgid "Picture"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:206
+msgid "My Profile Featured Image"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:213
+msgid "Mypage heander Image"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:213
+msgid "Background-Image Upload"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:224
+msgid "Social Network IDs"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:237
+msgid "Save"
+msgstr ""
+
+#: library/dashboard/mypage-edit-my-profile.php:243
+msgid "Please select your user type."
+msgstr ""
+
+#: library/dashboard/mypage-member.php:35
+msgid "My Page Menu"
+msgstr ""
+
+#: library/dashboard/mypage-member.php:41
+msgid "Home"
+msgstr ""
+
+#: library/dashboard/mypage-member.php:57
+msgid "Submit Item"
+msgstr ""
+
+#: library/dashboard/mypage-member.php:60
+msgid "Edit Password"
+msgstr ""
+
+#: library/dashboard/mypage-member.php:128
+#, php-format
+msgid "%s's Properties"
+msgstr ""
+
+#: library/dashboard/mypage-no-user.php:8
+msgid "Cannot &nbsp;find &nbsp;user"
+msgstr ""
+
+#: library/dashboard/mypage-no-user.php:10
+msgid "Sorry, no user exists with that username."
+msgstr ""
+
+#: library/define.php:20
+msgid "An item has been posted."
+msgstr ""
+
+#: library/define.php:21
+msgid "Best regards,"
+msgstr ""
+
+#: library/define.php:157
+#, php-format
+msgid "%s is invalid taxonomy name."
+msgstr ""
+
+#: library/footer/html-contact-type.php:23
+msgid "Javo Contact Form"
+msgstr ""
+
+#: library/footer/html-contact-type.php:30
+msgid "Please create a form with contact 7 or Ninja form and add."
+msgstr ""
+
+#: library/footer/html-contact-type.php:31
+msgid "Theme Settings > General > Contact Form Modal Settings"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:1885
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2189
+msgid "Recommended"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2205
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2208
+msgid "External Source"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2211
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2228
+msgid "Not Installed"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2232
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2234
+msgid "Active"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2240
+msgid "Required Update not Available"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2243
+msgid "Requires Update"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2246
+msgid "Update recommended"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2254
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2299
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/class-tgm-plugin-activation.php:2302
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/class-tgm-plugin-activation.php:2305
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/class-tgm-plugin-activation.php:2308
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/functions/class-tgm-plugin-activation.php:2390
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2398
+msgid "Installed version:"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2406
+msgid "Minimum required version:"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2418
+msgid "Available version:"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2441
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2455
+msgid "Plugin"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2456
+msgid "Source"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2510
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2514
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2519
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2622
+msgid "Install"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2628
+msgid "Update"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2631
+msgid "Activate"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2662
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2664
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2700
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:2702
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3047
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3384
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3388
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3389
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3390
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3391
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3394
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3396
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/functions/class-tgm-plugin-activation.php:3397
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/functions/custom-ninjaforms.php:12
+msgid "Lava Fields"
+msgstr ""
+
+#: library/functions/custom-ninjaforms.php:34
+msgid "author email"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:23
+msgid "Home - Classic1"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:33
+msgid " Home - Simple"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:52
+msgid "Home - News 1"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:60
+msgid "Home box classic"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:68
+msgid "Home box classic 2"
+msgstr ""
+
+#: library/functions/javo-vc-templates.php:76
+msgid "Home box classic 3"
+msgstr ""
+
+#: library/functions/process.php:97
+msgid "Untitled Mail"
+msgstr ""
+
+#: library/header/class-header.php:21
+msgid "1 Row (inline) type"
+msgstr ""
+
+#: library/header/class-header.php:22
+msgid "2 Rows type"
+msgstr ""
+
+#: library/header/class-header.php:23
+msgid "2 Rows (Transparent) type"
+msgstr ""
+
+#: library/header/header-general.php:74
+msgid "Logout"
+msgstr ""
+
+#: library/header/post-header.php:79
+msgid "No select slider."
+msgstr ""
+
+#: library/layout.php:47
+msgid "Please, type email address."
+msgstr ""
+
+#: library/layout.php:48
+msgid "Please, type your email adress."
+msgstr ""
+
+#: library/layout.php:49
+msgid "Please, type your name."
+msgstr ""
+
+#: library/layout.php:50
+msgid "Please, type your message"
+msgstr ""
+
+#: library/layout.php:51
+msgid "Sorry, failed to send your message"
+msgstr ""
+
+#: library/layout.php:52
+msgid "Successfully sent!"
+msgstr ""
+
+#: library/layout.php:53
+msgid "Do you want to send this email ?"
+msgstr ""
+
+#: library/layout.php:56
+msgid "If you want to add it to your favorite, please login."
+msgstr ""
+
+#: library/layout.php:57
+msgid "Saved"
+msgstr ""
+
+#: library/layout.php:58
+msgid "Unsaved"
+msgstr ""
+
+#: library/layout.php:59
+msgid "Sorry, server error."
+msgstr ""
+
+#: library/layout.php:60
+msgid "favorite register fail."
+msgstr ""
+
+#: library/widgets/wg-javo-canvas-box-menu.php:11
+msgid "This menu is from canvas menu on appearance."
+msgstr ""
+
+#: library/widgets/wg-javo-canvas-box-menu.php:13
+msgid "[JAVO] Canvas Menu-Menu list"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:12
+msgid "[JAVO] Contact Us"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:13
+msgid "Javo contact information display widget."
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:78
+msgid "Contact info"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:82
+#: library/widgets/wg-javo-recent-photos.php:133
+msgid "Title:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:11
+#: library/widgets/wg-javo-menu-button-right-menu.php:11
+msgid "Item submit button (only for menu)."
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:13
+msgid "[JAVO] Menu button - Submit Item"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:84
+msgid "Button Text:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:90
+#: library/widgets/wg-javo-menu-button-login.php:168
+#: library/widgets/wg-javo-menu-button-right-menu.php:97
+msgid "Style Setting"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:99
+#: library/widgets/wg-javo-menu-button-login.php:177
+#: library/widgets/wg-javo-menu-button-right-menu.php:106
+msgid "Same as navi menu color"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:108
+#: library/widgets/wg-javo-menu-button-login.php:186
+#: library/widgets/wg-javo-menu-button-right-menu.php:115
+msgid "Setup own custom color"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:114
+#: library/widgets/wg-javo-menu-button-login.php:192
+msgid "Button text color:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:118
+#: library/widgets/wg-javo-menu-button-login.php:196
+msgid "Button background color:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:122
+#: library/widgets/wg-javo-menu-button-login.php:200
+msgid "Button border color:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:126
+#: library/widgets/wg-javo-menu-button-login.php:204
+msgid "Button radius (only number):"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-item-submit.php:132
+#: library/widgets/wg-javo-menu-button-login.php:137
+#: library/widgets/wg-javo-menu-button-right-menu.php:72
+msgid "Show on mobile"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:12
+msgid "Login button (only for menu)."
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:14
+msgid "[JAVO] Menu button - LOGIN"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:159
+msgid "Logged in Button Text:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:163
+msgid "My page Button Text:"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:211
+msgid "Icon class before log-in (mobile)"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-login.php:222
+msgid "Icon class after log-in (mobile)"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-right-menu.php:13
+msgid "[JAVO] Menu button - Right Menu"
+msgstr ""
+
+#: library/widgets/wg-javo-menu-button-right-menu.php:122
+msgid "Button text color"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:11
+msgid "Recent Photos with thumbnails widget."
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:13
+msgid "[JAVO] Recent Photos"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:137
+#: library/widgets/wg-javo-recent-post.php:121
+msgid "Limit:"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:145
+#: library/widgets/wg-javo-recent-post.php:129
+msgid "Choose the Post Type: "
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:9
+msgid "Recent posts with thumbnails widget."
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:11
+msgid "[JAVO] Recent posts"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:80
+msgid "Not Found Posts."
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:113
+msgid "Excerpt Length"
+msgstr ""
+
+#: library/wp_init.php:49
+msgid "Primary"
+msgstr ""
+
+#: library/wp_init.php:50
+msgid "Footer Menu"
+msgstr ""
+
+#: library/wp_init.php:51
+msgid "Canvas Menu"
+msgstr ""
+
+#: library/wp_init.php:98
+msgid "Default Sidebar"
+msgstr ""
+
+#: library/wp_init.php:100
+msgid "Widgets in this area will be shown on the default pages."
+msgstr ""
+
+#: library/wp_init.php:107
+msgid "Footer Sidebar1"
+msgstr ""
+
+#: library/wp_init.php:109 library/wp_init.php:118 library/wp_init.php:127
+#: library/wp_init.php:136
+msgid "Widgets in this area will be shown on the footer side."
+msgstr ""
+
+#: library/wp_init.php:116
+msgid "Footer Sidebar2"
+msgstr ""
+
+#: library/wp_init.php:125
+msgid "Footer Sidebar3"
+msgstr ""
+
+#: library/wp_init.php:134
+msgid "Footer Sidebar4"
+msgstr ""
+
+#: library/wp_init.php:143
+msgid "Footer Top Area"
+msgstr ""
+
+#: library/wp_init.php:151
+msgid "Footer Bottom Area"
+msgstr ""
+
+#: library/wp_init.php:175
+msgid "Toolbar Left"
+msgstr ""
+
+#: library/wp_init.php:183
+msgid "Toolbar Right"
+msgstr ""
+
+#: library/wp_init.php:281
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/wp_init.php:315
+msgid "Older posts <i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: library/wp_init.php:316
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i> Newer posts"
+msgstr ""
+
+#: library/wp_init.php:363
+msgid "Pingback:"
+msgstr ""
+
+#: library/wp_init.php:363
+msgid "(Edit)"
+msgstr ""
+
+#: library/wp_init.php:392
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/wp_init.php:399
+msgid "Reply"
+msgstr ""
+
+#: library/wp_init.php:429 library/wp_init.php:432
+msgid ", "
+msgstr ""
+
+#: library/wp_init.php:443
+msgid "View all posts by"
+msgstr ""
+
+#: library/wp_init.php:449 library/wp_init.php:451
+msgid "Category"
+msgstr ""
+
+#: library/wp_init.php:449
+msgid "Tags"
+msgstr ""
+
+#: library/wp_init.php:449 library/wp_init.php:451 library/wp_init.php:453
+msgid "Date"
+msgstr ""
+
+#: library/wp_init.php:449 library/wp_init.php:451 library/wp_init.php:453
+msgid "by"
+msgstr ""
+
+#: search.php:32
+msgid "Search Results for: "
+msgstr ""
+
+#: search.php:48
+msgid "No result found. Please try again"
+msgstr ""
+
+#: tag.php:30
+#, php-format
+msgid "%s Archives: %s"
+msgstr ""
+
+#: templates/parts/modal-contact-us.php:6
+msgid "Contact "
+msgstr ""
+
+#: templates/parts/modal-contact-us.php:13
+msgid "Insert your name"
+msgstr ""
+
+#: templates/parts/modal-contact-us.php:19
+msgid "Insert your E-mail address."
+msgstr ""
+
+#: templates/parts/modal-contact-us.php:29
+msgid "Send a message"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:18
+msgid "Sign Into Your Account"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:39
+msgid "Remember Me"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:42
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:52
+msgid "Login"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:66
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:67
+msgid "Sign Up"
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:71
+msgid "This site is not allowed new members. please contact administrator."
+msgstr ""
+
+#: templates/parts/modal-login-type2.php:76
+msgid ""
+"Your privacy is important to us and we will never rent or sell your "
+"information."
+msgstr ""
+
+#: templates/parts/modal-register.php:13
+msgid "Create Account"
+msgstr ""
+
+#: templates/parts/modal-register.php:27
+msgid "Email Address"
+msgstr ""
+
+#: templates/parts/modal-register.php:28
+msgid "Your email"
+msgstr ""
+
+#: templates/parts/modal-register.php:36
+msgid "Your first name"
+msgstr ""
+
+#: templates/parts/modal-register.php:43
+msgid "Your last name"
+msgstr ""
+
+#: templates/parts/modal-register.php:52
+msgid "Desired Password"
+msgstr ""
+
+#: templates/parts/modal-register.php:58 templates/parts/modal-register.php:59
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/parts/modal-register.php:80
+msgid "I agree with the terms and conditions."
+msgstr ""
+
+#: templates/parts/modal-register.php:90
+msgid "LOG IN"
+msgstr ""
+
+#: templates/parts/modal-register.php:95
+msgid "Create My Account"
+msgstr ""
+
+#: templates/parts/modal-register.php:106
+msgid "You need to read and agree the terms and conditions to register."
+msgstr ""
+
+#: templates/parts/modal-register.php:132
+msgid "usernames with spaces should not be allowed."
+msgstr ""
+
+#: templates/parts/modal-register.php:155
+msgid "Register Complete"
+msgstr ""
+
+#: templates/parts/modal-register.php:159
+msgid "User Register failed. Please check duplicate email or Username"
+msgstr ""
+
+#: templates/parts/part-multiple-listing-type-list.php:59
+msgid "Types"
+msgstr ""
+
+#: templates/parts/part-multiple-listing-type-list.php:66
+msgid "All Types"
+msgstr ""
+
+#: templates/parts/part-multiple-listing-type-list.php:80
+msgid "Option"
+msgstr ""
+
+#: templates/parts/part-multiple-listing-type-list.php:282
+#: templates/parts/part-multiple-listing-type-map.php:54
+msgid "Load More"
+msgstr ""
+
+#: templates/parts/part-multiple-listing-type-map.php:38
+msgid "Cancel"
+msgstr ""
