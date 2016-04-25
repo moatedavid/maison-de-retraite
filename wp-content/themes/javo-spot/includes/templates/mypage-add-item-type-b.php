@@ -10,7 +10,7 @@ get_header();
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-12 my-page-title">
-					<?php esc_html_e( "New Item", 'javospot' ); ?>
+					<?php esc_html_e( "Nouveau centre", 'javospot' ); ?>
 				</div> <!-- my-page-title -->
 			</div> <!-- row -->
 			<?php get_template_part('library/dashboard/' . jvfrm_spot_dashboard()->page_style . '/sidebar', 'user-info');?>

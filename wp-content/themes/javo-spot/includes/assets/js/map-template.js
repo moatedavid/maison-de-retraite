@@ -124,6 +124,9 @@ jQuery( function( $ ){
 			// Setup Distance Bar
 			this.setDistanceBar();
 
+			// Setup Prix min/max Bar
+			this.setPrixBar();
+
 			// Hidden Footer
 			$('.container.footer-top').remove();
 
@@ -160,8 +163,10 @@ jQuery( function( $ ){
 				.on( 'javo:doing'														, this.doing() )
 				.on( 'javo:map_pre_get_lists'										, this.control_manager( true ) )
 				.on( 'javo:map_get_lists_after'									, this.control_manager( false) );
+            //$('#javo-map-box-location-ac').focusout(function() {
 
-			; $( window )
+            //});
+            $( window )
 				.on( 'resize', this.resize )
 				.on( 'javo:init', this.setAutoComplete );
 
@@ -311,10 +316,10 @@ jQuery( function( $ ){
 				, el		= $( ".javo-geoloc-slider, .javo-geoloc-slider-trigger" )
 				, _unit		= $( "[javo-distance-unit]" ).val() || 'km'
 				, unitcon	= _unit != 'km' ? 1609.344 : 1000
-				, _max		= obj.args.distance_max || 1000
+				, _max		= 200
 				, max		= parseInt( _max ) * unitcon
 				, step		= parseInt( max ) / 100
-				, cur		= parseInt( $( "[name='set_radius_value']").val() * unitcon ) || ( parseInt( max ) / 2 );
+				, cur		= parseInt( $( "[name='set_radius_value']").val() * unitcon ) || ( parseInt( max ) / 1 );
 
 			var opt		= {
 				start		: cur
@@ -420,7 +425,97 @@ jQuery( function( $ ){
 				}) //End;
 
 
-		} // End Setup Distance noUISlider
+		} // End Setup prix noUISlider
+		, setPrixBar: function()
+		{
+			var
+				obj			= this
+				, el		= $( ".javo-prix-slider, .javo-prix-slider-trigger" )
+				, _unit		= '€'
+				, max		= 10000
+				, step		= 100
+				, cur		= [0,10000];
+
+			var opt		= {
+				start		: cur
+				, step		: step
+				, connect	: true
+				, range		: { 'min': 0, 'max': max }
+				, serialization:{
+					lower:[
+						$.Link({
+							target : '-tooltip-<div class="javo-slider-tooltip "></div>'
+							, method : function(v) {
+								$(this).html('<span>' + v + '&nbsp;' + _unit + '</span>');
+								$( ".noUi-origin" ).removeClass( "noUi-connect" ).addClass( "noUi-background" );
+							}
+							, format : {
+								decimals	: 0
+								, thousand	:','
+								, encoder	: function( a ){
+									return a ;
+								}
+							}
+						})
+					],
+					upper:[
+						$.Link({
+							target : '-tooltip-<div class="javo-slider-tooltip"></div>'
+							, method : function(x) {
+								$(this).html('<span>' + x + '&nbsp;' + _unit + '</span>');
+							}
+							, format : {
+								decimals	: 0
+								, thousand	:','
+								, encoder	: function( a ){
+									return a ;
+								}
+							}
+						})
+					]
+				}
+			};
+			if( ! el.length )
+				return;
+			el
+				.noUiSlider( opt )
+				.css( 'margin', '15px 0' );
+
+			$( el.get(0) )
+				.on( 'set', function( e )
+				{
+					var
+					data 		= 	obj.items
+					, result	=	[];
+
+					var tranchePrix = $( this ).val().toString().split(',');
+					var prixMinimum = tranchePrix[0].split('.');
+					var prixMaximum = tranchePrix[1].split('.');
+
+					prixMinimum = parseInt(prixMinimum[0]);
+					prixMaximum = parseInt(prixMaximum[0]);
+
+					$.each( obj.items, function( i, k )
+					{
+						var prix = parseInt(k._prix);
+						if( prix !== "undefined" && prix <= prixMaximum && prix >= prixMinimum)
+							result.push( data[i] );
+					} );
+
+					obj.filter( result );
+
+					obj.map_clear( false );
+
+				}) // End
+
+			$( el.get(1) )
+				.on( 'set', function( e ) {
+					$( el.get(0) ).val( $( this ).val() ).trigger( 'set' );
+
+				}) //End;
+
+
+		} // End Setup Prix noUISlider
 
 		, setAutoComplete : function()
 		{
@@ -531,6 +626,7 @@ jQuery( function( $ ){
 			items = obj.apply_multiple_filter( $("[name='jvfrm_spot_map_multiple_filter']") , items );
 			items = obj.apply_meta_filter( $( "[data-metakey]", obj.panel ), items );
 			items = obj.apply_keyword( items );
+            items = obj.apply_prix( $( ".javo-prix-slider"), items );
 
 			if( typeof obj.extend_filter == "function" )
 				items = obj.extend_filter( items );
@@ -669,7 +765,25 @@ jQuery( function( $ ){
 			}
 			return result;
 		}
+        , apply_prix: function( el, data )
+        {
+            var tranchePrix = el.val().toString().split(',');
+            var prixMinimum = tranchePrix[0].split('.');
+            var prixMaximum = tranchePrix[1].split('.');
+            var result		= [];
 
+            prixMinimum = parseInt(prixMinimum[0]);
+            prixMaximum = parseInt(prixMaximum[0]);
+
+            $.each( data, function( i, k )
+            {
+                var prix = parseInt(k._prix);
+                if( prix !== "undefined" && prix <= prixMaximum && prix >= prixMinimum)
+                    result.push( data[i] );
+            } );
+
+            return result;
+        }
 		, tag_matche: function( str, keyword )
 		{
 			var i = 0;

@@ -19,7 +19,7 @@ do_action( "lava_{$post->lava_type}_map_container_before", $post );
 </fieldset>
 <script type="text/html" id="javo-map-not-found-data">
 	<div class="jvfrm_spot_map_not_found" data-dismiss>
-		<?php esc_html_e( "Not found data", 'javospot' ); ?>
+		<?php esc_html_e( "Aucune résidence trouvé", 'javospot' ); ?>
 	</div>
 </script>
 <?php

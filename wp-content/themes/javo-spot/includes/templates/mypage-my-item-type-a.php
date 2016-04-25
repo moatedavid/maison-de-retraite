@@ -1,7 +1,9 @@
 <?php
 /*****	My Page ***/
-get_header();?>
-	<div class="jv-my-page jv-my-items">
+get_header();
+?>
+	
+<div class="jv-my-page jv-my-items">
 	<div class="row top-row">
 		<div class="col-md-12">
 			<?php get_template_part('library/dashboard/' . jvfrm_spot_dashboard()->page_style . '/sidebar', 'user-info');?>

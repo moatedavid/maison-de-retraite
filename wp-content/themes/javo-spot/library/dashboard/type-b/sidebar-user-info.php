@@ -9,12 +9,20 @@ global
 ?>
 <div class="profile-and-image-container" style="position:relative; z-index:1;">
 	<ul class="nav nav-tabs" role="tablist">
-		<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><?php esc_html_e('Summary','javospot');?></a></li>
-		<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><?php esc_html_e('About','javospot'); ?></a></li>
-		<li role="presentation"><a href="#sendpm" aria-controls="sendpm" role="tab" data-toggle="tab"><?php esc_html_e('Send PM','javospot'); ?></a></li>
-		<li class="jv-mypage-topmenu-button"><a href="<?php echo jvfrm_spot_getCurrentUserPage( JVFRM_SPOT_ADDITEM_SLUG );?>" class="btn btn-danger pull-right admin-color-setting"><?php esc_html_e( "Submit Item", 'javospot' );?></a></li>
+		<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><?php esc_html_e('Résumé','javospot');?></a></li>
+		<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><?php esc_html_e('Mes infos','javospot'); ?></a></li>
+		<!-- li role="presentation"><a href="#sendpm" aria-controls="sendpm" role="tab" data-toggle="tab"><?php //esc_html_e('Send PM','javospot'); ?></a></li -->
+                <?php 
+                if (strpos($_SERVER['REQUEST_URI'], 'add-lv_listing') === false && strpos($_SERVER['REQUEST_URI'], 'edit-my-profile') === false) {
+                 ?>                
+                    <li class="jv-mypage-topmenu-button"><a href="<?php echo jvfrm_spot_getCurrentUserPage( JVFRM_SPOT_ADDITEM_SLUG );?>" class="btn btn-danger pull-right admin-color-setting"><?php esc_html_e( "Ajouter une résidence", 'javospot' );?></a></li>
+                <?php }?>    
+                <?php 
+                if (strpos($_SERVER['REQUEST_URI'], 'add-lv_listing') === false && strpos($_SERVER['REQUEST_URI'], 'edit-my-profile') === false) {
+                 ?>                    
 		<li class="jv-mypage-topmenu-button"><a href="<?php echo jvfrm_spot_getCurrentUserPage( JVFRM_SPOT_PROFILE_SLUG );?>" class="btn btn-danger pull-right admin-color-setting"><?php esc_html_e( "Edit Profile", 'javospot' );?></a></li>
-		<li class="jv-mypage-topmenu-button"><a href="<?php echo esc_url( home_url( JVFRM_SPOT_DEF_LANG.JVFRM_SPOT_MEMBER_SLUG . '/' . wp_get_current_user()->user_login . '/' ) . JVFRM_SPOT_MEMBER_SLUG );?>" class="btn btn-danger pull-right admin-color-setting"><?php esc_html_e( "My Page", 'javospot' );?></a></li>
+                <?php }?> 
+		<li class="jv-mypage-topmenu-button"><a href="<?php echo esc_url( home_url( JVFRM_SPOT_DEF_LANG.JVFRM_SPOT_MEMBER_SLUG . '/' . wp_get_current_user()->user_login . '/' ) . JVFRM_SPOT_MEMBER_SLUG );?>" class="btn btn-danger pull-right admin-color-setting"><?php esc_html_e( "Ma page", 'javospot' );?></a></li>
 	 </ul>
 	<div class="col-xs-12">
 		<div class="col-md-3  col-xs-12 author-img">
@@ -40,7 +48,7 @@ global
 							</li> <!-- list-group-item -->
 
 							<li class="list-group-item">
-								<div class="col-md-2 col-sm-4 col-xs-4 my-home-label"><?php esc_html_e( "Phone" ,'javospot' );?></div>
+								<div class="col-md-2 col-sm-4 col-xs-4 my-home-label"><?php esc_html_e( "Tel" ,'javospot' );?></div>
 								<div class="col-md-10 col-sm-8 col-xs-8 my-home-content"></div>&nbsp;<?php echo esc_attr( $jvfrm_spot_curUser->phone );?>
 							</li> <!-- list-group-item -->
 

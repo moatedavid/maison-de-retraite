@@ -50,10 +50,10 @@ class jvfrm_spot_search1
 			, 'param_name'	=> $param_name
 			, 'value'				=> Array(
 				esc_html__( "None", 'javospot' )						=> ''
-				, esc_html__( "Keyword", 'javospot' )				=> 'keyword'
+				, esc_html__( "Mots clés", 'javospot' )				=> 'keyword'
 				, esc_html__( "Google Search", 'javospot' )	=> 'google_search'
-				, esc_html__( "Category", 'javospot' )				=> 'listing_category'
-				, esc_html__( "Location", 'javospot' )				=> 'listing_location'
+				, esc_html__( "Catégories", 'javospot' )				=> 'listing_category'
+				, esc_html__( "Villes", 'javospot' )				=> 'listing_location'
 			)
 		);
 	}
@@ -67,7 +67,7 @@ class jvfrm_spot_search1
 		if( !function_exists( 'vc_map' ) )
 			return;
 
-		$strGroupFilter		= esc_html__( "Filter", 'javospot' );
+		$strGroupFilter		= esc_html__( "Filtre", 'javospot' );
 		$arrColumn			= Array();
 		for( $intCount = 1; $intCount <= 3; $intCount ++ )
 			$arrColumn[ $intCount . ' ' . _n( "Column", "Columns", $intCount, 'javospot' ) ] = $intCount;
@@ -257,7 +257,7 @@ class jvfrm_spot_search1
 	public function keyword() {
 		printf( "<input type=\"text\" name=\"%s\" placeholder=\"%s\" class=\"form-control\">"
 			, 'keyword'
-			, esc_html__( "Keyword", 'javospot' )
+			, esc_html__( "Mots clés", 'javospot' )
 		);
 	}
 
@@ -266,7 +266,7 @@ class jvfrm_spot_search1
 	 */
 	public function google_search() {
 		printf( "
-			<div class=\"javo-search-form-geoloc\">
+			<div class=\"javo-search-form-geoloc\" style=\"width: 300px;\">
 				<input type=\"text\" name=\"%s\" class=\"form-control\">
 				<i class=\"fa fa-map-marker javo-geoloc-trigger\"></i>
 			</div>"
@@ -278,10 +278,10 @@ class jvfrm_spot_search1
 	Listing category output
 	 */
 	public function listing_category() {
-		printf( "<select name=\"%s\" data-selectize>
+		printf( "<select name=\"%s\" data-selectize style=\"width: 300px;\">
 			<option value=''>%s</option>%s</select>"
 			, 'category'
-			,  esc_html__( "All Categories", 'javospot' )
+			,  esc_html__( "Choisir un type d'établissement", 'javospot' )
 			, apply_filters( 'jvfrm_spot_get_selbox_child_term_lists', 'listing_category', null, 'select', false, 0, 0, '-' )
 		);
 	}
@@ -290,10 +290,10 @@ class jvfrm_spot_search1
 	Listing location output
 	 */
 	public function listing_location() {
-		printf( "<select name=\"%s\" data-selectize>
+		printf( "<select name=\"%s\" data-selectize style=\"width: 300px;\">
 			<option value=''>%s</option>%s</select>"
 			, 'location'
-			,  esc_html__( "All Location", 'javospot' )
+			,  esc_html__( "Choisir une ville", 'javospot' )
 			, apply_filters( 'jvfrm_spot_get_selbox_child_term_lists', 'listing_location', null, 'select', false, 0, 0, '-' )
 		);
 	}
@@ -322,7 +322,7 @@ class jvfrm_spot_search1
 			}
 			echo "</div>";
 		}else{
-			esc_html_e( "Not Found Any Amenities", 'javospot' );
+			esc_html_e( "Aucun équipements trouvés", 'javospot' );
 		}
 	}
 
@@ -404,7 +404,7 @@ class jvfrm_spot_search1
 							<?php
 							for( $intCount=1; $intCount <= intVal( $attr[ 'columns' ] ); $intCount++ ){
 								if( !empty( $attr[ 'column1' ] ) ) {
-									echo "<div class=\"search-box-inline\">";
+                                                                        echo "<div class=\"search-box-inline\" style=\"font-weight:600;\">";									
 									do_action( 'jvfrm_spot_search1_element_' . $attr[ 'column' . $intCount ], $attr );
 									echo "</div>";
 								}
@@ -420,7 +420,7 @@ class jvfrm_spot_search1
 										</span>
 									</button>',
 									'jv-search1-morefilter-opener',
-									__( "Amenities", 'javospot' )
+									__( "Equipements", 'javospot' )
 								);
 
 								echo '<div class="jv-search1-morefilter-row" style="display:none;">
@@ -430,19 +430,19 @@ class jvfrm_spot_search1
 								echo '</div><!-- /.col-md-8 //--></div><!-- /.row //-->';
 							} ?>
 							<div class="search-box-inline">
-								<button type="submit" class="<?php echo $strButtonClass; ?>" style="<?php echo $strButtonStyles; ?>"><?php esc_html_e( "Search", 'javospot');?></button>
+								<button type="submit" class="<?php echo $strButtonClass; ?>" style="width: 300px; <?php echo $strButtonStyles; ?>"><?php esc_html_e( "Search", 'javospot');?></button>
 							</div>
 						</div> <!-- rows -->
-						<div class="bottom-amenities">
+						<!-- div class="bottom-amenities">
 							<div class="bottom-amenities-content">
-								<?php do_action( 'jvfrm_spot_search1_element_listing_amenities', $attr ); ?>
+								<?php //do_action( 'jvfrm_spot_search1_element_listing_amenities', $attr ); ?>
 								<div class="bottom-amenities-opener">
 									<div class="bottom-amenities-opener-button">
-										<span class="icon"></span>
+										<span class="icon">Liste des prestations et des environnements &nbsp;</span>
 									</div>
 								</div>
 							</div>
-						</div>
+						</div -->
 					</div> <!-- jv-search1-search-fields -->
 				</form>
 			</div>

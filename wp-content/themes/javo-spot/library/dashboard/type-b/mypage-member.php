@@ -10,7 +10,7 @@ global
 $jvfrm_spot_dashboard_tabs	= apply_filters( 'jvfrm_spot_dashboard_' . jvfrm_spot_dashboard()->page_style . '_nav',
 	Array(
 		'my-items'		=> Array(
-			'label'		=> esc_html__( "My List", 'javospot' ),
+			'label'		=> esc_html__( "Ma liste", 'javospot' ),
 			'active'	=> true,
 		),
 	)
@@ -22,7 +22,7 @@ get_header(); ?>
 
 <div class="jv-my-page">
 	<div class="row top-row container">
-		<h2 class="jv-my-page-user-name"><?php printf('%s', $jvfrm_spot_curUser->display_name);?></h2>
+		<h2 class="jv-my-page-user-name"><?php //printf('%s', $jvfrm_spot_curUser->display_name);?></h2>
 		<div class="col-md-12">
 			<?php get_template_part('library/dashboard/' . jvfrm_spot_dashboard()->page_style . '/sidebar', 'user-info');?>
 		</div> <!-- col-12 -->

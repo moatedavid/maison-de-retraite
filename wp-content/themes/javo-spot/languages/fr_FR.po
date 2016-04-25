@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Javohome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-24 00:12+0100\n"
-"PO-Revision-Date: 2016-03-24 10:27+0100\n"
+"PO-Revision-Date: 2016-04-04 22:53+0200\n"
 "Language-Team: Javo Theme <javothemes@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: 404.php:16
 msgid "Page  &nbsp;Not &nbsp;Found"
-msgstr ""
+msgstr "Page non trouvée"
 
 #: 404.php:18
 msgid ""
@@ -201,13 +201,13 @@ msgstr ""
 #: content-link.php:73 content-page.php:19 content-video.php:73 content.php:93
 #: image.php:34 library/wp_init.php:384
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: content-audio.php:81 content-gallery.php:81 content-image.php:81
 #: content-link.php:81 content-video.php:81 content.php:101
 #, php-format
 msgid "About <em>%s</em>"
-msgstr ""
+msgstr "Sur <em>%s</em>"
 
 #: content-none.php:12 index.php:41
 msgid "Nothing Found"
@@ -762,7 +762,7 @@ msgstr ""
 #: includes/templates/html-map-filter.php:127
 #: templates/parts/part-multiple-listing-type-map.php:33
 msgid "Apply Filters"
-msgstr ""
+msgstr "Appliquer les filtres"
 
 #: includes/templates/html-map-filter.php:136
 msgid "Advanced"
@@ -1605,11 +1605,11 @@ msgstr ""
 
 #: library/admin/assets/theme-settings-general.php:80
 msgid "Main Page"
-msgstr ""
+msgstr "Page principal"
 
 #: library/admin/assets/theme-settings-general.php:81
 msgid "Current Page"
-msgstr ""
+msgstr "Page courante"
 
 #: library/admin/assets/theme-settings-general.php:82
 msgid "Wordpress Profile Page"
@@ -1617,7 +1617,7 @@ msgstr ""
 
 #: library/admin/assets/theme-settings-general.php:87
 msgid "Profile Page (Default)"
-msgstr ""
+msgstr "Page profil"
 
 #: library/admin/assets/theme-settings-general.php:98
 msgid "User Agreement"
@@ -2712,7 +2712,7 @@ msgstr ""
 #: library/dashboard/class-dashboard.php:90
 #: library/dashboard/mypage-edit-my-profile.php:102
 msgid "Edit My Profile"
-msgstr ""
+msgstr "Modifier mon profil "
 
 #: library/dashboard/class-dashboard.php:91
 #: library/dashboard/mypage-change-password.php:28
@@ -2722,11 +2722,11 @@ msgstr ""
 
 #: library/dashboard/class-dashboard.php:92
 msgid "My Items"
-msgstr ""
+msgstr "Mes centres"
 
 #: library/dashboard/class-dashboard.php:93
 msgid "Post an Item"
-msgstr ""
+msgstr "Ajouter un centre"
 
 #: library/dashboard/class-dashboard.php:94
 #: library/dashboard/class-dashboard.php:97
@@ -2740,7 +2740,7 @@ msgstr ""
 #: library/dashboard/functions-dashboard.php:43
 #: library/dashboard/mypage-member.php:63
 msgid "Edit Profile"
-msgstr ""
+msgstr "Modifier profil"
 
 #: library/dashboard/mypage-change-password.php:55
 msgid "Current Password"
@@ -2881,7 +2881,7 @@ msgstr "Image"
 
 #: library/dashboard/mypage-edit-my-profile.php:206
 msgid "My Profile Featured Image"
-msgstr ""
+msgstr "Mon image de profil"
 
 #: library/dashboard/mypage-edit-my-profile.php:213
 msgid "Mypage heander Image"
@@ -2905,7 +2905,7 @@ msgstr ""
 
 #: library/dashboard/mypage-member.php:35
 msgid "My Page Menu"
-msgstr ""
+msgstr "Ma page menu"
 
 #: library/dashboard/mypage-member.php:41
 msgid "Home"
@@ -2913,7 +2913,7 @@ msgstr "Accueil"
 
 #: library/dashboard/mypage-member.php:57
 msgid "Submit Item"
-msgstr ""
+msgstr "Ajouter"
 
 #: library/dashboard/mypage-member.php:60
 msgid "Edit Password"
@@ -2934,7 +2934,7 @@ msgstr ""
 
 #: library/define.php:20
 msgid "An item has been posted."
-msgstr ""
+msgstr "Le centre à bien été ajouté"
 
 #: library/define.php:21
 msgid "Best regards,"
@@ -3228,7 +3228,7 @@ msgstr ""
 
 #: library/header/header-general.php:74
 msgid "Logout"
-msgstr ""
+msgstr "Déconnexion"
 
 #: library/header/post-header.php:79
 msgid "No select slider."

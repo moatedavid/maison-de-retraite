@@ -276,4 +276,5 @@ class jvfrm_spot_theme_admin
 		<?php
 	}
 }
-new jvfrm_spot_theme_admin;
+new jvfrm_spot_theme_admin();
+?>

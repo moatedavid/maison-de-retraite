@@ -14,7 +14,7 @@
 			<!-- Modal Header -->
 			<div class="modal-header text-center">
 				<h4 class="modal-title" id="login_panelLabel">
-					<?php echo strtoupper( esc_html__( 'Sign Into Your Account', 'javospot' ) ); ?>
+					<?php echo strtoupper( esc_html__( 'Connectez vous à votre compte', 'javospot' ) ); ?>
 				</h4><!-- /.modal-title -->
 			</div><!-- /.modal-header -->
 
@@ -25,20 +25,20 @@
 						<div class="col-md-12 lava_login_wrap">
 							<!-- User Name -->
 							<div class="form-group">
-								<input type="text" name="log" id="username"  value="" class="form-control" placeholder="<?php esc_html_e("Username",'javospot');?>" required>
+								<input type="text" name="log" id="username"  value="" class="form-control" placeholder="<?php esc_html_e("Identifiant",'javospot');?>" required>
 							</div>
 							<!-- User Password -->
 							<div class="form-group">
-								<input type="password" name="pwd" id="password" value="" class="form-control" placeholder="<?php esc_html_e("Password",'javospot');?>" required>
+								<input type="password" name="pwd" id="password" value="" class="form-control" placeholder="<?php esc_html_e("Mot de passe",'javospot');?>" required>
 							</div>
 							<!-- Descriptions -->
 							<div class="form-group">
 								<label class="control-label">
 									<input name="rememberme" value="forever" type="checkbox">
-									<small><?php esc_html_e("Remember Me", 'javospot');?></small>
+									<small><?php esc_html_e("Souvenir de moi", 'javospot');?></small>
 								</label><!-- /.control-label -->
 								<a href="<?php echo wp_lostpassword_url();?>">
-									<small class="required"><?php esc_html_e('Forgot Your Password?', 'javospot' ); ?></small>
+									<small class="required"><?php esc_html_e('Oublier mot de passe?', 'javospot' ); ?></small>
 								</a>
 							</div>
 
@@ -48,7 +48,7 @@
 									<div class="col-md-12 col-xs-12">
 										<input type="hidden" name="redirect_to" value="<?php echo esc_attr( $_SERVER['REQUEST_URI'] );?>">
 										<button type="submit" class="btn btn-block btn-danger ">
-											<strong><?php esc_html_e('Login', 'javospot');?></strong>
+											<strong><?php esc_html_e('Identifiant', 'javospot');?></strong>
 										</button>
 										<?php do_action( 'jvfrm_spot_login2_modal_login_after' ); ?>
 									</div><!-- /.col-md-12 -->

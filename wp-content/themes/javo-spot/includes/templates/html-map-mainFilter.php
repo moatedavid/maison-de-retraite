@@ -1,6 +1,6 @@
 <!-- Right Sidebar Inner -->
 <!-- Control & Filter Area -->
-<div class="javo-maps-search-wrap">
+<div class="javo-maps-search-wrap" style="margin-top: 25px;">
 	<!-- row -->
 	<?php do_action( 'jvfrm_spot_map_template_filter_outer' ); ?>
 
@@ -22,8 +22,8 @@
 		<div class="col-md-3 col-sm-6">
 			<button class="btn btn-warning btn-block" id="javo-map-box-advance-filter">
 				<i class="txt-icon glyphicon glyphicon-tasks"></i>
-				<span class="txt-advanced"><?php esc_html_e( "Advanced", 'javospot' );?></span>
-				<span class="txt-filter"><?php esc_html_e( "Filter", 'javospot' ); ?></span>
+                                <span class="txt-filter"><?php esc_html_e( "Filter", 'javospot' ); ?></span>
+				<span class="txt-advanced"><?php esc_html_e( "Advanced", 'javospot' );?></span>				
 			</button>
 		</div><!-- /.col-md-3 -->
 		<div class="col-md-2 col-sm-6">

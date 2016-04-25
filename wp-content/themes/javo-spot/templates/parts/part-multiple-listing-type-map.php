@@ -25,14 +25,14 @@ $strMapOutputClass = sprintf(
 	<!-- MAP Area -->
 	<div class="map_cover"></div>
 
-	<div <?php jvfrm_spot_map_class( 'javo-maps-area-wrap' ); ?>>
+	<div <?php jvfrm_spot_map_class( 'javo-maps-area-wrap' ); ?> style="width: 910px;">
 		<div class="javo-maps-area"></div>
 	</div>
 
 	<div class="category-menu-bar"></div>
 
 	<!-- Right Sidebar Content -->
-	<div <?php jvfrm_spot_map_class( 'javo-maps-panel-wrap' ); ?>>
+	<div <?php jvfrm_spot_map_class( 'javo-maps-panel-wrap' ); ?> style="width: 750px;">
 		<div class="javo-maps-panel-wrap-inner">
 			<div class="javo-map-box-advance-filter-wrap-fixed"></div>
 			<?php do_action( 'jvfrm_spot_' . jvfrm_spot_core()->slug . '_map_lists_before', get_the_ID() ); ?>

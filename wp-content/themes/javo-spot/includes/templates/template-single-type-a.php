@@ -1,16 +1,17 @@
 <div class="container">
 	<div class="row">
 		<div id="javo-single-content" class="col-md-9 col-xs-12 item-single">
-			<div class="row" id="javo-detail-item-content">
-				<div id="javo-item-photos-section">
+			<div class="row" id="javo-detail-item-content">                             
+				<div class="col-md-12 col-xs-12 item-description" id="javo-item-photos-section" data-jv-detail-nav>
+
+					<h3 class="page-header"><?php esc_html_e( "Galerie photos", 'javospot' ); ?></h3>                                    
                                     <?php if( jvfrm_spot_has_attach() ) : ?>
                                             <div class="col-md-12 col-xs-12 item-summary">
                                                     <?php get_template_part( 'includes/templates/html', 'single-grid-images' ); ?>
                                             </div><!-- /.col-md-12.item-summary -->
                                     <?php endif; ?>
+                                            
 				</div>
-
-
 				<?php do_action( 'jvfrm_spot_' . get_post_type() . '_single_description_before' ); ?>
 
 				<div class="col-md-12 col-xs-12 item-description" id="javo-item-describe-section" data-jv-detail-nav>
@@ -80,12 +81,21 @@
 				</div><!-- /#javo-item-location-section -->
 
 				<?php do_action( 'jvfrm_spot_' . get_post_type() . '_single_map_after' ); ?>
-
+                                
+                                <div class="col-md-12 col-xs-12" id="javo-item-comments-section" data-jv-detail-nav>
+					<h3 class="page-header"><?php esc_html_e( "Liste des commentaires", 'javospot' ); ?></h3>
+                                            
+					<?php                                        
+                                        if ( comments_open() || get_comments_number() )
+                                            comments_template();
+					?>
+				</div>
 			</div><!-- /#javo-detail-item-content -->
 
 		</div> <!-- /#javo-single-content -->
 		<div id="javo-single-sidebar" class="col-md-3 sidebar-right">
 			<?php lava_directory_get_widget(); ?>
 		</div><!-- /.col-md-3 -->
+                                                                 
 	</div><!--/.row-->
 </div><!-- /.container -->

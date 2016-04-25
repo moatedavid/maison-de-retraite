@@ -687,8 +687,12 @@ class jvfrm_spot_Directory_Template extends jvfrm_spot_Directory
 			),
 			Array(
 				'position'	=> 'outer',
-				'callback'	=> 'fieldKeyword'
+				'callback'	=> 'fieldPrix'
 			),
+			/*Array(
+				'position'	=> 'outer',
+				'callback'	=> 'fieldKeyword'
+			),*/
 			Array(
 				'position'	=> 'inner',
 				'callback'	=> 'fieldLocation'
@@ -696,11 +700,11 @@ class jvfrm_spot_Directory_Template extends jvfrm_spot_Directory
 			Array(
 				'position'	=> 'inner',
 				'callback'	=> 'fieldTax'
-			),
+			)/*,
 			Array(
 				'position'	=> 'inner',
 				'callback'	=> 'fieldMeta'
-			),
+			)*/
 		);
 		$arrFilters			= apply_filters( 'jvfrm_spot_' . self::SLUG . '_map_filter_orders', $orderFields );
 
@@ -732,6 +736,10 @@ class jvfrm_spot_Directory_Template extends jvfrm_spot_Directory
 
 	public function fieldTax(){
 		$this->load_template( 'part-map-filter-taxonomy', '.php', Array( 'post' => $GLOBALS[ 'post' ] ), false  );
+	}
+
+	public function fieldPrix(){
+		$this->load_template( 'part-map-filter-prix', '.php', Array( 'post' => $GLOBALS[ 'post' ] ), false );
 	}
 
 
@@ -919,7 +927,7 @@ class jvfrm_spot_Directory_Template extends jvfrm_spot_Directory
 			$objShortcode	= new jvfrm_spot_block12();
 			echo $objShortcode->output(
 				Array(
-					'title'					=> strtoupper( sprintf( esc_html__( "%s's Items", 'javospot' ), $user->display_name ) ),
+					'title'					=> strtoupper( sprintf( esc_html__( "Mes centres", 'javospot' ), $user->display_name ) ),
 					'count'				=> 6,
 					'author'				=> $user->ID,
 					'columns'			=> 3,

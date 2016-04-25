@@ -44,17 +44,17 @@
 		</div><!--navmenu-fixed-right-canvas-->
     </div> <!-- navmenu -->
 </div> <!-- right_menu_inner -->
-<div class="loading-page <?php echo jvfrm_spot_tso()->get( 'preloader_hide' ) !== 'use'? 'hidden': false;?>">
-	<div id="status" class="bulat">
-			<div id="dalbulat">
+<div  style="background-color: rgba(127,127,127,0.94) !important;" class="loading-page <?php echo jvfrm_spot_tso()->get( 'preloader_hide' ) !== 'use'? 'hidden': false;?>">
+	<div id="status" class="bulat" style="color: white !important;">
+		
 				<?php
 				echo join( "\n", Array(
 					"<span>",
-					join( "</span>\n\t<span>", preg_split( '//u', strtoupper( esc_html__( "Loading", 'javospot' ) ), -1 ) ),
+					join( "</span>\n\t<span>", preg_split( '//u', strtoupper( esc_html__( "loading...", 'javospot' ) ), -1 ) ),
 					'</span>',
 				) ); ?>
-			</div>
-			<div class="luarbulat"></div>
+			
+			
 	</div>
 </div><!-- /.loading-page -->
 

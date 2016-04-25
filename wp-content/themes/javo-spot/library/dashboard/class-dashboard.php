@@ -146,7 +146,7 @@ class jvfrm_spot_dashboard
 
 		$staticImage	= true;
 
-		$strBackground	= JVFRM_SPOT_IMG_DIR . '/bg/mypage-bg.png';
+		$strBackground	= '';//JVFRM_SPOT_IMG_DIR . '/bg/mypage-bg.png';
 
 		if( !empty( $jvfrm_spot_current_user->mypage_header ) ) {
 			$mypage_header_meta = wp_get_attachment_image_src( $jvfrm_spot_current_user->mypage_header, 'full' );
@@ -163,7 +163,7 @@ class jvfrm_spot_dashboard
 			, 'body.javo-dashboard.type-b', "background-image:url({$strBackground}); background-size:cover; background-attachment:fixed; background-position:center center;"
 		);
 		if( $staticImage )
-			$output_html[]	= "body.javo-dashboard.type-b{ background-size:auto; background-position:-30% bottom; background-repeat:repeat-x; background-color:#C4E2E9 !important; }";
+			$output_html[]	= "body.javo-dashboard.type-b{ background-size:auto; background-position:-30% bottom; background-repeat:repeat-x; background-color:white !important; }";
 		$output_html[]	= "</style>";
 		echo @implode( "\n", $output_html );
 	}

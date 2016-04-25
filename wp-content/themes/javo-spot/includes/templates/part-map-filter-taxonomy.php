@@ -6,7 +6,7 @@ if( !empty( $jvfrm_spot_multi_filters  ) ) :  foreach( $jvfrm_spot_multi_filters
 	?>
 	<div class="row text-left javo-map-box-advance-term">
 		<div class="col-md-3 jv-advanced-titles javo-map-box-title">
-			<?php echo get_taxonomy( $filter )->label; ?>
+			Liste des prestations et des environnements  
 		</div><!-- /.col-md-3 -->
 		<div class="col-md-9 jv-advanced-fields">
 			<?php

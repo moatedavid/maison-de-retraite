@@ -46,7 +46,7 @@ function jvfrm_spot_custom_single_style()
 					<h1 class="uppercase">
 						<?php echo apply_filters( 'jvfrm_spot_' . get_post_type() . '_single_title', get_the_title() );?>
 						<a href="<?php echo jvfrm_spot_getUserPage( get_the_author_meta( 'ID' ) ); ?>" class="header-avatar">
-							<?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?>
+							<?php //echo get_avatar( get_the_author_meta( 'ID' ) ); ?>
 						</a>
 					</h1>
 				</div>

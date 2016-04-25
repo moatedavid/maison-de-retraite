@@ -83,7 +83,7 @@
 
 					<div class="row">
 						<div class="col-md-4 hidden-xs col-xs-4 text-left">
-							<a href="#" data-toggle="modal" data-target="#login_panel" class="btn btn-default javo-tooltip" title="" data-original-title="Log-In"><?php esc_html_e('LOG IN', 'javospot' ); ?></a>
+							<a href="#" data-toggle="modal" data-target="#login_panel" class="btn btn-default javo-tooltip" title="" data-original-title="Log-In"><?php esc_html_e('Connexion', 'javospot' ); ?></a>
 
 						</div><!-- /.col-md-4 -->
 						<div class="col-md-8 text-right">
