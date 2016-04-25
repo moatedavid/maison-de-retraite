@@ -85,7 +85,7 @@ class jvfrm_spot_login1 extends JvfrmSpot_ShortcodeParse
 		printf(
 			"<p class=\"login-lostpassword\"><a href=\"%s\">%s</a></p>",
 			wp_lostpassword_url( home_url( '/' ) ),
-			__( "Lost your password?", 'javo' )
+			__( "Oublier passeword?", 'javo' )
 		);
 	}
 
@@ -111,28 +111,28 @@ class jvfrm_spot_login1 extends JvfrmSpot_ShortcodeParse
 			<div class="col-md-7 meta-wrap">
 				<div class="meta-display-name">
 					<strong><?php echo $this->user_name; ?></strong>
-					<a href="<?php echo $this->mypage;?>" class="meta-mypage" title="<?php _e( "Go to My Page", 'javo' ); ?>" target="_self">
-						<?php _e( "My Page", 'javo' ); ?>
-					</a>
+					<!-- a href="<?php //echo $this->mypage;?>" class="meta-mypage" title="<?php //_e( "Go to My Page", 'javo' ); ?>" target="_self">
+						<?php //_e( "My Page", 'javo' ); ?>
+					</a __ -->
 				</div>
 				<div class="meta-posts">
 					<i class="fa fa-caret-right"></i>
-					<label><?php _e( "Items", 'javo' ); ?></label>
+					<label><?php _e( "Centre", 'javo' ); ?></label>
 					<div class="bedge"><?php echo count_user_posts( $this->user_id , 'lv_listing' ); ?></div>
 				</div>
 				<div class="meta-comments">
 					<i class="fa fa-caret-right"></i>
-					<label><?php _e( "Reviews", 'javo' ); ?></label>
+					<label><?php _e( "Avis", 'javo' ); ?></label>
 					<div class="bedge"><?php echo intVal( $this->getCommentCount() ); ?></div>
 				</div>
 			</div>
 			<div class="col-md-2 meta-actions">
-				<a href="<?php echo $this->logout_page; ?>" title="<?php _e( "Logout", 'javo' ); ?>" class="btn btn-default btn-xs btn-block btn-logout" target="_self">
-					<?php _e( "Logout", 'javo' ); ?>
+				<a href="<?php echo $this->logout_page; ?>" title="<?php _e( "Déconnexion", 'javo' ); ?>" class="btn btn-default btn-xs btn-block btn-logout" target="_self">
+					<?php _e( "Déconnexion", 'javo' ); ?>
 				</a>
-				<a href="<?php echo $this->submit_item; ?>" title="<?php _e( "Submit Item", 'javo' ); ?>" class="btn btn-default btn-block btn-submit-item" target="_self">
-					<?php _e( "Submit<br>Item", 'javo' ); ?>
-				</a>
+				<!--a href="<?php echo $this->submit_item; ?>" title="<?php //_e( "Submit Item", 'javo' ); ?>" class="btn btn-default btn-block btn-submit-item" target="_self">
+					<?php // _e( "Submit<br>Item", 'javo' ); ?>
+				</a -->
 			</div>
 		</div><!-- /.row -->
 		<?php
@@ -141,12 +141,12 @@ class jvfrm_spot_login1 extends JvfrmSpot_ShortcodeParse
 	public function panel_footer() {
 		$arrFooterMeta		= Array(
 			Array(
-				'label'		=> __( "My Page", 'javo' ),
+				'label'		=> __( "Ma page", 'javo' ),
 				'icon'		=> 'fa fa-bell-o',
 				'href'		=> $this->mypage,
 			),
 			Array(
-				'label'		=> __( "Edit", 'javo' ),
+				'label'		=> __( "Modifier", 'javo' ),
 				'icon'		=> 'fa fa-bell-o',
 				'href'		=> $this->editProfile,
 			)

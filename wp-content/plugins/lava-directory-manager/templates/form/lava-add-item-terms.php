@@ -12,7 +12,20 @@ if( !empty( $addition_terms ) ) : foreach( $addition_terms as $taxonomy ) {
 	$this_value			= wp_get_object_terms( $edit_id, $taxonomy, Array( 'fields' => 'ids' ) );
 	if( is_wp_error( $this_value ) )
 		continue;
-
+        
+        $label = get_taxonomy( $taxonomy )->label;
+        if($taxonomy  == 'listing_amenities'){
+            $label = 'Liste des équipements';
+        }
+        if($taxonomy  == 'listing_keyword'){
+            $label = 'Liste des mots clés';
+        }
+        if($taxonomy  == 'listing_category'){
+            $label = 'Liste des catégories';
+        }
+        if($taxonomy  == 'listing_location'){
+            $label = 'Liste des villes';
+        }       
 	printf( "
 		<div class=\"form-inner\">
 			<label>%s</label>
@@ -20,10 +33,10 @@ if( !empty( $addition_terms ) ) : foreach( $addition_terms as $taxonomy ) {
 				<option value=\"\">%s</option>%s
 			</select>
 		</div>"
-		, get_taxonomy( $taxonomy )->label
+		, $label
 		, ( Array_Key_Exists( $taxonomy, $limit_terms ) ? $limit_terms[ $taxonomy ] : 0 )
 		, ( $taxonomy === 'listing_keyword' )
-		, get_taxonomy( $taxonomy )->label
+		, $label
 		, apply_filters('lava_get_selbox_child_term_lists', $taxonomy, null, 'select', $this_value, 0, 0, "-")
 	);
 } endif;

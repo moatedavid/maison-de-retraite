@@ -1,10 +1,10 @@
-<h5><?php _e('Map', 'Lavacode');?></h5>
+<h5><?php _e('CARTE', 'Lavacode');?></h5>
 
 <div class="form-inner">
-	<label><?php _e( "Address Search", 'Lavacode' ); ?></label>
+	<label><?php _e( "Recherche adresse", 'Lavacode' ); ?></label>
 	<div class="form-content">
-		<input class="form-control lava-add-item-map-search" placeholder="<?php _e("Address","Lavacode");?>">
-		<input type="button" value="<?php _e('Find','Lavacode'); ?>" class="lava-add-item-map-search-find">
+		<input class="form-control lava-add-item-map-search" placeholder="<?php _e("Adresse","Lavacode");?>">
+		<input type="button" value="<?php _e('Trouver','Lavacode'); ?>" class="lava-add-item-map-search-find">
 	</div>
 </div>
 
@@ -24,7 +24,7 @@
 </div>
 
 <div class="form-inner">
-	<label><?php _e( "Used StreetView", 'Lavacode' ); ?></label>
+	<label><?php _e( "Utiliser StreetView", 'Lavacode' ); ?></label>
 	<input type="hidden" name="lava_location[street_visible]" value="0">
 	<input type="checkbox" name="lava_location[street_visible]" class='lava-add-item-set-streetview' value="1" <?php checked( $edit->street_visible == 1 ); ?>>
 </div>

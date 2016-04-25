@@ -22,13 +22,13 @@ foreach( $lava_get_this_tags as $tags ) {
 		<?php do_action( "lava_add_{$lava_post_type}_form_before", $edit ); ?>
 
 		<div class="form-inner">
-			<label><?php _e("Title", "Lavacode"); ?></label>
-			<input name="txt_title" type="text" class="form-control" value="<?php echo esc_attr( isset($edit) ? $edit->post_title : NULL ); ?>" placeholder="<?php _e('Write a title','Lavacode'); ?>">
+			<label><?php _e("Centre", "Lavacode"); ?></label>
+			<input name="txt_title" type="text" class="form-control" value="<?php echo esc_attr( isset($edit) ? $edit->post_title : NULL ); ?>" placeholder="<?php _e('Nom du centre','Lavacode'); ?>">
 		</div>
 
 		<div class="form-inner">
 			<label><?php _e("Description", "Lavacode"); ?></label>
-			<textarea name="txt_content" class="form-control" rows="10" placeholder="<?php _e( "Write a description", 'Lavacode' );?>"><?php echo !empty($edit)?$edit->post_content:'';?></textarea>
+			<textarea name="txt_content" class="form-control" rows="10" placeholder="<?php _e( "Rédiger une description", 'Lavacode' );?>"><?php echo !empty($edit)?$edit->post_content:'';?></textarea>
 		</div>
 
 		<?php do_action( "lava_add_{$lava_post_type}_form_after", $edit ); ?>

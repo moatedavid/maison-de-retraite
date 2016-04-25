@@ -72,12 +72,12 @@ class Jvfrm_Spot_Module
 				wp_trim_words( $post->post_content, $this->lghContent, '...' )
 		);
 
-		$this->excerpt				= sprintf(
+		/*$this->excerpt				= sprintf(
 			apply_filters(
 				'jvfrm_spot_' . get_class( $this ) . '_core_module_excerpt_after',
 				$this->excerpt, $this
 			)
-		);
+		);*/
 
 		// User
 		$this->avatar				= $this->hide_avatar ? false : get_avatar( $this->authorID );

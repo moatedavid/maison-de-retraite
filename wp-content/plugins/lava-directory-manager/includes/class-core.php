@@ -193,7 +193,13 @@ class Lava_Directory_Manager_Func extends Lava_Directory_Manager
 				, 'element'		=> 'input'
 				, 'type'		=> 'text'
 				, 'class'		=> 'all-options'
+			), '_prix'	=> Array(
+				'label'			=> __( "Tarif / mensuel", 'Lavacode' )
+				, 'element'		=> 'input'
+				, 'type'		=> 'text'
+				, 'class'		=> 'all-options'
 			)
+
 		);
 	}
 
@@ -241,13 +247,13 @@ class Lava_Directory_Manager_Func extends Lava_Directory_Manager
 			)
 			, 'listing_keyword'			=> Array(
 				'post_type'				=> self::SLUG
-				, 'args'				=> Array(
+			, 'args'				=> Array(
 					'hierarchical'		=> true
-					, 'label'			=> _x( "Listing Keyword", "Keyword Label", 'Lavacode')
-					, 'labels'			=> Array(
+				, 'label'			=> _x( "Listing Keyword", "Keyword Label", 'Lavacode')
+				, 'labels'			=> Array(
 						'menu_name'		=> _x( "Keyword", "Keyword Name", 'Lavacode')
 					)
-					, 'rewrite'			=> Array(
+				, 'rewrite'			=> Array(
 						'slug'			=> self::NAME . '_keyword'
 					)
 				)
